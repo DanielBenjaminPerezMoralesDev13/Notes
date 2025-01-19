@@ -259,7 +259,7 @@ docker image build --tag d4nitrix13/app-08:fail ./
 **Al ejecutar el contenedor con el comando:**
 
 ```bash
-docker run -itp5000:5000 --rm d4nitrix13/app-08:fail ls -lA
+docker run -itp5000:5000 --rm d4nitrix13/app-08:fail
 ```
 
 **Salida:**
