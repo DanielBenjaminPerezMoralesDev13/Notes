@@ -1,6 +1,6 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielBenjaminPerezMoralesDev13 -->
-<!-- Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13 -->
+<!-- GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13 -->
 <!-- Correo electrónico: danielperezdev@proton.me -->
 
 # ***Dockerización de un Entorno PHP***
@@ -10,7 +10,7 @@
 ```Dockerfile
 # Autor: Daniel Benjamin Perez Morales
 # GitHub: https://github.com/DanielBenjaminPerezMoralesDev13
-# Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
+# GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
 # Correo electrónico: danielperezdev@proton.me
 
 # Utiliza la imagen base de Ubuntu 22.04
@@ -107,7 +107,7 @@ ENV TZ America/Managua
 ```Dockerfile
 # Autor: Daniel Benjamin Perez Morales
 # GitHub: https://github.com/DanielBenjaminPerezMoralesDev13
-# Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
+# GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
 # Correo electrónico: danielperezdev@proton.me
 
 # Utiliza la imagen base de Ubuntu 22.04
@@ -229,7 +229,7 @@ Mon Sep  2 14:40:07 CST 2024
 ```bash
 # Autor: Daniel Benjamin Perez Morales
 # GitHub: https://github.com/DanielBenjaminPerezMoralesDev13
-# Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
+# GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
 # Correo electrónico: danielperezdev@proton.me
 
 Dockerfile*
@@ -249,7 +249,7 @@ vendor/
 ```Dockerfile
 # Autor: Daniel Benjamin Perez Morales
 # GitHub: https://github.com/DanielBenjaminPerezMoralesDev13
-# Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
+# GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
 # Correo electrónico: danielperezdev@proton.me
 
 # Utiliza la imagen base de Ubuntu 22.04
@@ -741,7 +741,7 @@ RUN composer install --no-scripts
 ```Dockerfile
 # Autor: Daniel Benjamin Perez Morales
 # GitHub: https://github.com/DanielBenjaminPerezMoralesDev13
-# Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
+# GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
 # Correo electrónico: danielperezdev@proton.me
 
 # Utiliza la imagen base de Ubuntu 22.04
@@ -885,7 +885,7 @@ COPY --from=composer /usr/bin/composer /usr/bin/composer
 ```Dockerfile
 # Autor: Daniel Benjamin Perez Morales
 # GitHub: https://github.com/DanielBenjaminPerezMoralesDev13
-# Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
+# GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
 # Correo electrónico: danielperezdev@proton.me
 
 # Utiliza la imagen base de PHP 8.1

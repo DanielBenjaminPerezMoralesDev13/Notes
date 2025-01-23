@@ -1,6 +1,6 @@
 <!-- Author: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielBenjaminPerezMoralesDev13 -->
-<!-- Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13 -->
+<!-- GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13 -->
 <!-- Email: danielperezdev@proton.me -->
 
 # ***`mypy` es una herramienta de verificación de tipos para Python que ayuda a detectar errores en tiempo de desarrollo al analizar el código con base en las anotaciones de tipo. A continuación, te explico cómo instalar, configurar y usar `mypy`, así como algunos conceptos clave relacionados.***
@@ -36,7 +36,7 @@ touch mypy.ini
 ```ini
 # Author: Daniel Benjamin Perez Morales
 # GitHub: https://github.com/DanielBenjaminPerezMoralesDev13
-# Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
+# GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
 # Email: danielperezdev@proton.me
 
 [mypy]
@@ -53,7 +53,7 @@ disallow_untyped_defs = True
 ```toml
 # Author: Daniel Benjamin Perez Morales
 # GitHub: https://github.com/DanielBenjaminPerezMoralesDev13
-# Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
+# GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
 # Email: danielperezdev@proton.me
 
 [tool.mypy]
@@ -77,7 +77,7 @@ mypy nombre_del_fichero.py
 ```python
 # Author: Daniel Benjamin Perez Morales
 # GitHub: https://github.com/DanielBenjaminPerezMoralesDev13
-# Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
+# GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
 # Email: danielperezdev@proton.me
 
 from sys import stdout, exit
@@ -99,7 +99,7 @@ exit(0)
 ```python
 # Author: Daniel Benjamin Perez Morales
 # GitHub: https://github.com/DanielBenjaminPerezMoralesDev13
-# Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
+# GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
 # Email: danielperezdev@proton.me
 
 from colored import fore  # type: ignore
@@ -114,7 +114,7 @@ from colored import fore  # type: ignore
 ```ini
 # Author: Daniel Benjamin Perez Morales
 # GitHub: https://github.com/DanielBenjaminPerezMoralesDev13
-# Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
+# GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
 # Email: danielperezdev@proton.me
 
 [mypy]
@@ -127,7 +127,7 @@ disallow_untyped_defs = True
 ```toml
 # Author: Daniel Benjamin Perez Morales
 # GitHub: https://github.com/DanielBenjaminPerezMoralesDev13
-# Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
+# GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
 # Email: danielperezdev@proton.me
 
 [tool.mypy]

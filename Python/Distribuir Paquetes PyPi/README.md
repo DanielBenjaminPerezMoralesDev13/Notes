@@ -1,6 +1,6 @@
 <!-- Author: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielBenjaminPerezMoralesDev13 -->
-<!-- Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13 -->
+<!-- GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13 -->
 <!-- Email: danielperezdev@proton.me -->
 
 # ***Para distribuir un paquete de Python, necesitarás preparar y subir tu paquete a un repositorio de Python, como PyPI (Python3 Package Index) o TestPyPI (un índice de paquetes de prueba). Aquí tienes una guía detallada sobre los pasos y comandos involucrados***

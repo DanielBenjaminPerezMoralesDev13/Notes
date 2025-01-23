@@ -2,7 +2,7 @@
 
 # Author: Daniel Benjamin Perez Morales
 # GitHub: https://github.com/DanielBenjaminPerezMoralesDev13
-# Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
+# GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
 # Email: danielperezdev@proton.me
 
 # Importamos el módulo tomllib que está disponible en Python `3.11` y versiones posteriores

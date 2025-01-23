@@ -1,6 +1,6 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielBenjaminPerezMoralesDev13 -->
-<!-- Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13 -->
+<!-- GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13 -->
 <!-- Correo electrónico: danielperezdev@proton.me -->
 
 # ***Copias de directorios completos de un stage a otro***
@@ -12,7 +12,7 @@
 ```Dockerfile
 # Autor: Daniel Benjamin Perez Morales
 # GitHub: https://github.com/DanielBenjaminPerezMoralesDev13
-# Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
+# GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
 # Correo electrónico: danielperezdev@proton.me
 
 # ------------------------------------Inicio Stage 0 (Base)----------------------------------
@@ -142,7 +142,7 @@ src
 ```Dockerfile
 # Autor: Daniel Benjamin Perez Morales
 # GitHub: https://github.com/DanielBenjaminPerezMoralesDev13
-# Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
+# GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
 # Correo electrónico: danielperezdev@proton.me
 
 # ------------------------------------Inicio Stage 0 (Base)----------------------------------
@@ -326,7 +326,7 @@ drwxrwxr-x 2 root root  4096 Apr  2  2023 todos
 ```Dockerfile
 # Autor: Daniel Benjamin Perez Morales
 # GitHub: https://github.com/DanielBenjaminPerezMoralesDev13
-# Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
+# GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
 # Correo electrónico: danielperezdev@proton.me
 
 # ------------------------------------Inicio Stage 0 (Base)----------------------------------

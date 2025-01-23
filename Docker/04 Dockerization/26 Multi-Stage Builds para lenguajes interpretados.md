@@ -1,6 +1,6 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielBenjaminPerezMoralesDev13 -->
-<!-- Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13 -->
+<!-- GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13 -->
 <!-- Correo electrónico: danielperezdev@proton.me -->
 
 # ***Multi-Stage Builds para lenguajes interpretados***
@@ -116,7 +116,7 @@ docker build -t d4nitrix13/app-08:python-slim ./
 ```Dockerfile
 # Autor: Daniel Benjamin Perez Morales
 # GitHub: https://github.com/DanielBenjaminPerezMoralesDev13
-# Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
+# GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
 # Correo electrónico: danielperezdev@proton.me
 
 # Usamos la imagen base oficial de Python 3.10-slim
@@ -388,7 +388,7 @@ ERROR: failed to solve: process "/bin/sh -c pipenv install" did not complete suc
 ```Dockerfile
 # Autor: Daniel Benjamin Perez Morales
 # GitHub: https://github.com/DanielBenjaminPerezMoralesDev13
-# Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
+# GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
 # Correo electrónico: danielperezdev@proton.me
 
 # Usamos la imagen base oficial de Python 3.10-slim
@@ -574,7 +574,7 @@ curl 172.17.0.2:5000/todos
 ```Dockerfile
 # Autor: Daniel Benjamin Perez Morales
 # GitHub: https://github.com/DanielBenjaminPerezMoralesDev13
-# Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
+# GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
 # Correo electrónico: danielperezdev@proton.me
 
 # ------------------------------------Inicio Stage 0 (Build)----------------------------------
@@ -729,7 +729,7 @@ mysql               latest         a82a8f162e18   7 weeks ago      586MB
 ```Dockerfile
 # Autor: Daniel Benjamin Perez Morales
 # GitHub: https://github.com/DanielBenjaminPerezMoralesDev13
-# Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
+# GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
 # Correo electrónico: danielperezdev@proton.me
 
 # ------------------------------------Inicio Stage 0 (Base)----------------------------------

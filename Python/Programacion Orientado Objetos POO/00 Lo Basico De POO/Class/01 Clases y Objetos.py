@@ -2,7 +2,7 @@
 
 # Autor: Daniel Benjamin Perez Morales
 # GitHub: https://github.com/DanielBenjaminPerezMoralesDev13
-# Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
+# GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
 # Correo electrónico: danielperezdev@proton.me 
 
 # para crear una clase en python se utiliza la palabra reservada class, seguido del nombre de la clase, y dentro de la clase se pueden crear los atributos y metodos que se deseen.

@@ -1,6 +1,6 @@
 <!-- Author: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielBenjaminPerezMoralesDev13 -->
-<!-- Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13 -->
+<!-- GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13 -->
 <!-- Email: danielperezdev@proton.me -->
 
 # ***El módulo `typing` en Python proporciona soporte para anotaciones de tipo, lo que ayuda a especificar qué tipo de datos se espera en las variables, parámetros y funciones. Esto mejora la legibilidad del código y facilita la detección de errores antes de la ejecución. A continuación, se detalla el propósito de varios tipos y herramientas del módulo `typing`, junto con ejemplos de su uso.***

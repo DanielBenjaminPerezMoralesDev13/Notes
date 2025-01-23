@@ -1,6 +1,6 @@
 <!-- Author: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielBenjaminPerezMoralesDev13 -->
-<!-- Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13 -->
+<!-- GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13 -->
 <!-- Email: danielperezdev@proton.me -->
 
 # ***La biblioteca `prettytable` en Python se utiliza para generar tablas visualmente atractivas en la terminal o en la salida estándar. Es especialmente útil para mostrar datos de manera organizada y legible.***
@@ -27,7 +27,7 @@ pip install prettytable
 
 # Author: Daniel Benjamin Perez Morales
 # GitHub: https://github.com/DanielBenjaminPerezMoralesDev13
-# Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
+# GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
 # Email: danielperezdev@proton.me
 
 # Importamos la clase PrettyTable del módulo prettytable
@@ -61,7 +61,7 @@ exit(0)
 
 # Author: Daniel Benjamin Perez Morales
 # GitHub: https://github.com/DanielBenjaminPerezMoralesDev13
-# Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
+# GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
 # Email: danielperezdev@proton.me
 
 from sys import stdout, exit
@@ -107,7 +107,7 @@ exit(0)
 
 # Author: Daniel Benjamin Perez Morales
 # GitHub: https://github.com/DanielBenjaminPerezMoralesDev13
-# Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
+# GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
 # Email: danielperezdev@proton.me
 
 from sys import stdout, exit
@@ -157,7 +157,7 @@ exit(0)
 
 # Author: Daniel Benjamin Perez Morales
 # GitHub: https://github.com/DanielBenjaminPerezMoralesDev13
-# Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
+# GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
 # Email: danielperezdev@proton.me
 
 from sys import stdout, exit

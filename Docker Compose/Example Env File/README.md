@@ -1,6 +1,6 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielBenjaminPerezMoralesDev13 -->
-<!-- Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13 -->
+<!-- GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13 -->
 <!-- Correo electrónico: danielperezdev@proton.me -->
 
 # **En `docker-compose`, el uso de un fichero de variables de entorno (`env-file`) es una manera sencilla de cargar variables de entorno para los contenedores definidos en tu fichero `docker-compose.yml`.**
@@ -19,7 +19,7 @@
    ```bash
    # Autor: Daniel Benjamin Perez Morales
    # GitHub: https://github.com/DanielBenjaminPerezMoralesDev13
-   # Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
+   # GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
    # Correo electrónico: danielperezdev@proton.me
 
    # Variables para PostgreSQL
@@ -48,7 +48,7 @@
    ```yaml
    # Autor: Daniel Benjamin Perez Morales
    # GitHub: https://github.com/DanielBenjaminPerezMoralesDev13
-   # Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
+   # GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
    # Correo electrónico: danielperezdev@proton.me
  
    version: '3.8'

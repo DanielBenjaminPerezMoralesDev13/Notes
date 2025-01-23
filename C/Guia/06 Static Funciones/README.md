@@ -1,6 +1,6 @@
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielBenjaminPerezMoralesDev13 -->
-<!-- Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13 -->
+<!-- GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13 -->
 <!-- Correo electrónico: danielperezdev@proton.me -->
 # ***En C, la palabra clave `static` se puede utilizar en el contexto de funciones para limitar el alcance de la función al fichero en el que se define. Esto significa que la función solo es visible y accesible desde dentro del fichero en el que se define***
 

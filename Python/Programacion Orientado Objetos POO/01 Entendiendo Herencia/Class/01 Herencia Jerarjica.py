@@ -2,7 +2,7 @@
 
 # Autor: Daniel Benjamin Perez Morales
 # GitHub: https://github.com/DanielBenjaminPerezMoralesDev13
-# Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
+# GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
 # Correo electrónico: danielperezdev@proton.me 
 
 # la Herencia en Programacion orientado a objetos, es cuando una clase hereda los atributos y metodos de otra clase, esto nos permite reutilizar codigo, y no tener que escribir el mismo codigo una y otra vez.

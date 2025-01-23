@@ -2,7 +2,7 @@
 
 # Autor: Daniel Benjamin Perez Morales
 # GitHub: https://github.com/DanielBenjaminPerezMoralesDev13
-# Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
+# GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
 # Correo electrónico: danielperezdev@proton.me
 
 from sys import stdout
@@ -19,7 +19,7 @@ exit(0)
 """
 <!-- Autor: Daniel Benjamin Perez Morales -->
 <!-- GitHub: https://github.com/DanielBenjaminPerezMoralesDev13 -->
-<!-- Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13 -->
+<!-- GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13 -->
 <!-- Correo electrónico: danielperezdev@proton.me -->
 
 # ***En Python, la sintaxis `def funcion(*, p: str)` define una función en la que el parámetro `p` es un parámetro de palabra clave. Esto significa que `p` debe ser especificado como un argumento de palabra clave cuando se llama a la función, no como un argumento posicional***
@@ -40,7 +40,7 @@ exit(0)
 
    # Autor: Daniel Benjamin Perez Morales
    # GitHub: https://github.com/DanielBenjaminPerezMoralesDev13
-# Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
+# GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
    # Correo electrónico: danielperezdev@proton.me
 
    from sys import stdout

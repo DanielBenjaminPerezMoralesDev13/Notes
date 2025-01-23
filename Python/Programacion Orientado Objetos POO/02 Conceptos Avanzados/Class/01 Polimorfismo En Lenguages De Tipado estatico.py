@@ -2,7 +2,7 @@
 
 # Autor: Daniel Benjamin Perez Morales
 # GitHub: https://github.com/DanielBenjaminPerezMoralesDev13
-# Gitlab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
+# GitLab: https://gitlab.com/DanielBenjaminPerezMoralesDev13
 # Correo electrónico: danielperezdev@proton.me
 
 # El polimorfismo en python o en lenguages de tipado dinamico suele aplicarse de distinta manera que en lenguages de tipado estatico como Java o C# o C++.
