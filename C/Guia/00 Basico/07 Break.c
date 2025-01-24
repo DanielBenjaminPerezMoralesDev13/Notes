@@ -12,10 +12,10 @@
 ******************************
 */
 
-// ***Instrucción del preprocesador***: Incluye el fichero de cabecera estándar para entrada y salida (stdio.h).
+// ***Instrucción del preprocesador*:** Incluye el fichero de cabecera estándar para entrada y salida (stdio.h).
 #include <stdio.h>      // stdio.h contiene funciones para operaciones de entrada y salida, como printf.
 
-// ***Función principal***: Todo programa en C debe tener una función principal llamada `main`.
+// ***Función principal*:** Todo programa en C debe tener una función principal llamada `main`.
 int main(void) {
     // **Bucles con Break en C**
     int i;
@@ -48,7 +48,7 @@ int main(void) {
 }
 
 /*
-** Ilustración ASCII de Bucles con Break en C **:
+** Ilustración ASCII de Bucles con Break en C :**
 
 1. *Ejemplo de bucle for con break*:
    +---------------------------------+

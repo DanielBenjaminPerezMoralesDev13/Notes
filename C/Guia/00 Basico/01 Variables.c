@@ -19,7 +19,7 @@
 
 int main(void) {
     /**
-     * **Comentario Doxygen**: 
+     * **Comentario Doxygen:** 
      * Se utiliza para generar documentación automáticamente a partir del código fuente.
     */
 
@@ -79,7 +79,7 @@ int main(void) {
 }
 
 /*
-** Ilustración ASCII de los tipos de datos **:
+** Ilustración ASCII de los tipos de datos :**
 
 1. *Tipos Enteros*:
    +--------+
@@ -156,7 +156,7 @@ int main(void) {
 
 ## ***Datos interesantes***
 
-1. **Enteros**:
+1. **Enteros:**
 
    - **`int`:** *32 bits en la mayoría de las implementaciones modernas (puede ser 16 bits en sistemas embebidos o antiguos).*
 
@@ -166,7 +166,7 @@ int main(void) {
 
    - **`long long`:** *64 bits.*
 
-2. **Punto flotante**:
+2. **Punto flotante:**
 
    - **`float`:** *32 bits.*
 
@@ -174,13 +174,13 @@ int main(void) {
 
    - **`long double`:** *64 bits o 80 bits en la mayoría de las implementaciones modernas.*
 
-3. **Caracteres**:
+3. **Caracteres:**
 
    - **`char`:** *8 bits.*
 
    - **`unsigned char`:** *8 bits.*
 
-4. **Booleano**:
+4. **Booleano:**
 
    - **`bool`:** *No está definido por el estándar C, pero suele ser 8 bits (1 byte) ya que se suele tratar como un tipo de datos entero.*
 

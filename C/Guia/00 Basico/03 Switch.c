@@ -12,10 +12,10 @@
 ******************************
 */
 
-// ***Instrucción del preprocesador***: Incluye el fichero de cabecera estándar para entrada y salida (stdio.h).
+// ***Instrucción del preprocesador*:** Incluye el fichero de cabecera estándar para entrada y salida (stdio.h).
 #include <stdio.h>      // stdio.h contiene funciones para operaciones de entrada y salida, como printf.
 
-// ***Función principal***: Todo programa en C debe tener una función principal llamada `main`.
+// ***Función principal*:** Todo programa en C debe tener una función principal llamada `main`.
 int main(void) {
     // **Condicional con match case para verificar condiciones dentro de case**
     // Variable que representa la edad.
@@ -59,7 +59,7 @@ int main(void) {
 }
 
 /*
-** Ilustración ASCII de Switch Case **:
+** Ilustración ASCII de Switch Case :**
 
 1. *Switch Case para edad*:
    +---------------------------------+

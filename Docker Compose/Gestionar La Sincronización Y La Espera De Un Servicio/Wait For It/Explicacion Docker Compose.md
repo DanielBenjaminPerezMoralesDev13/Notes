@@ -54,14 +54,14 @@ volumes:
 
 #### **1. Servicio `base_image`:**
 
-- **`build`**:
+- **`build`:**
   - **`context`:** *Indica el directorio raíz donde se encuentra el `Dockerfile` y los ficheros necesarios para construir la imagen.*
   - **`dockerfile`:** *Especifica el nombre del fichero Dockerfile usado para construir la imagen (`Dockerfile.onbuild`).*
 - **`image`:** *Define el nombre y la etiqueta de la imagen construida (`d4nitrix13/base:latest`).*
 
 #### **2. Servicio `app`:**
 
-- **`build`**:
+- **`build`:**
   - **`context`:** *Similar al servicio anterior, se refiere al directorio actual (`./`).*
   - **`dockerfile`:** *Especifica el Dockerfile utilizado para construir este servicio (`Dockerfile`).*
 - **`image`:** *Nombre y etiqueta de la imagen construida (`d4nitrix13/my-app:1.0.0`).*
@@ -69,7 +69,7 @@ volumes:
 - **`labels`:** *Agrega metadatos como etiquetas, aquí especifica al mantenedor del servicio.*
 - **`container_name`:** *Define un nombre personalizado para el contenedor (`app-container`).*
 - **`volumes`:** *Monta un volumen llamado `myvolume` en el directorio `/App` en modo de solo lectura (`:ro`).*
-- **`healthcheck`**:
+- **`healthcheck`:**
   - **`test`:** *Comando ejecutado para verificar si el contenedor está saludable.*
   - **`interval`:** *Tiempo entre chequeos consecutivos (1 minuto y 30 segundos).*
   - **`timeout`:** *Tiempo máximo para que el healthcheck termine (30 segundos).*

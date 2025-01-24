@@ -110,23 +110,23 @@
 
 ## **1. Sesiones**
 
-**Concepto**:  
+**Concepto:**  
 
 Una sesión es un mecanismo que permite a las aplicaciones web mantener información sobre un usuario durante su interacción con el sitio, incluso cuando las solicitudes HTTP (que son sin estado) no lo permiten de forma nativa. Las sesiones permiten rastrear al usuario desde el momento en que accede al sistema hasta que se desconecta o la sesión expira.
 
-**Características**:  
+**Características:**  
 
-- **Persistencia temporal**: Los datos de la sesión están disponibles solo mientras el usuario está activo (generalmente hasta que cierra el navegador o el servidor elimina la sesión por inactividad).
-- **Identificación única**: Cada sesión está asociada a un identificador único (por ejemplo, un `session ID`) que se genera cuando el usuario inicia una nueva sesión.
-- **Almacenamiento**: Los datos de la sesión pueden almacenarse en el servidor (seguro) o en cookies en el cliente (menos seguro).
-- **Datos personalizados**: Permite guardar información específica del usuario, como su nombre, preferencias, carrito de compras, etc.
+- **Persistencia temporal:** Los datos de la sesión están disponibles solo mientras el usuario está activo (generalmente hasta que cierra el navegador o el servidor elimina la sesión por inactividad).
+- **Identificación única:** Cada sesión está asociada a un identificador único (por ejemplo, un `session ID`) que se genera cuando el usuario inicia una nueva sesión.
+- **Almacenamiento:** Los datos de la sesión pueden almacenarse en el servidor (seguro) o en cookies en el cliente (menos seguro).
+- **Datos personalizados:** Permite guardar información específica del usuario, como su nombre, preferencias, carrito de compras, etc.
 
-**Ventajas**:
+**Ventajas:**
 
 - Facilita la experiencia del usuario al mantener información entre solicitudes.
 - Mejora la seguridad al no exponer datos sensibles directamente en el cliente.
 
-**Ejemplo común**:
+**Ejemplo común:**
 
 En PHP, las sesiones se inician con `session_start()` y permiten almacenar datos como:  
 
@@ -138,23 +138,23 @@ $_SESSION['username'] = 'usuario123';
 
 ### **2. Login**
 
-**Concepto**:  
+**Concepto:**  
 
 El login (o inicio de sesión) es el proceso mediante el cual un usuario verifica su identidad en un sistema, generalmente proporcionando credenciales como un nombre de usuario y contraseña. El objetivo es garantizar que solo los usuarios autorizados puedan acceder a recursos específicos.
 
-**Características**:  
+**Características:**  
 
-- **Autenticación**: Es el proceso principal del login, donde el sistema valida las credenciales ingresadas contra las almacenadas (por ejemplo, en una base de datos).
-- **Seguridad**: El sistema utiliza técnicas como cifrado (hashing) de contraseñas para proteger las credenciales del usuario.
-- **Control de acceso**: Después de un login exitoso, el sistema asigna privilegios o roles al usuario (por ejemplo, administrador, usuario estándar).
-- **Persistencia opcional**: Algunas aplicaciones permiten mantener la sesión activa mediante cookies (como "Recordarme").
+- **Autenticación:** Es el proceso principal del login, donde el sistema valida las credenciales ingresadas contra las almacenadas (por ejemplo, en una base de datos).
+- **Seguridad:** El sistema utiliza técnicas como cifrado (hashing) de contraseñas para proteger las credenciales del usuario.
+- **Control de acceso:** Después de un login exitoso, el sistema asigna privilegios o roles al usuario (por ejemplo, administrador, usuario estándar).
+- **Persistencia opcional:** Algunas aplicaciones permiten mantener la sesión activa mediante cookies (como "Recordarme").
 
-**Ventajas**:
+**Ventajas:**
 
 - Proporciona acceso seguro a recursos restringidos.
 - Permite personalizar la experiencia del usuario basado en sus credenciales y perfil.
 
-**Flujo típico de un login**:
+**Flujo típico de un login:**
 
 1. El usuario ingresa su nombre de usuario y contraseña en un formulario.
 2. El sistema valida las credenciales contra los datos almacenados.

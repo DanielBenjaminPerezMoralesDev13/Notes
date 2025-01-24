@@ -12,12 +12,12 @@
 *****************************
 */
 
-// ***Instrucción del preprocesador***: Incluye los ficheros de cabecera estándar para entrada y salida (stdio.h), booleanos (stdbool.h) y manejo de cadenas de texto (string.h).
+// ***Instrucción del preprocesador*:** Incluye los ficheros de cabecera estándar para entrada y salida (stdio.h), booleanos (stdbool.h) y manejo de cadenas de texto (string.h).
 #include <stdio.h>      // stdio.h contiene funciones para operaciones de entrada y salida, como printf.
 #include <stdbool.h>    // stdbool.h define el tipo de dato booleano.
 #include <string.h>     // string.h contiene funciones para manipulación de cadenas de texto.
 
-// ***Función principal***: Todo programa en C debe tener una función principal llamada `main`.
+// ***Función principal*:** Todo programa en C debe tener una función principal llamada `main`.
 int main(void) {
     // **Condicionales con if**
     // Definición de variables para las condicionales.
@@ -58,7 +58,7 @@ int main(void) {
 }
 
 /*
-** Ilustración ASCII de los condicionales **:
+** Ilustración ASCII de los condicionales :**
 
 1. *Condicional if*:
    +----------------------------+

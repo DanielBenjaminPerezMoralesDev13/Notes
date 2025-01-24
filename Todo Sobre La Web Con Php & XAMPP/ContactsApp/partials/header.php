@@ -142,9 +142,9 @@ Fecha De Expiración (time() - 3600): Se Establece Una Fecha De Expiración En E
   
   <!-- La diferencia entre **URL** (Uniform Resource Locator) y **URI** (Uniform Resource Identifier) es una cuestión de especificidad.
 
-  - **URL (Localizador Uniforme de Recursos)**: Es un tipo específico de URI que no solo identifica un recurso, sino que también proporciona la forma de localizarlo en internet. Incluye el protocolo (por ejemplo, HTTP, FTP) y la dirección del recurso (por ejemplo, `www.ejemplo.com`).
+  - **URL (Localizador Uniforme de Recursos):** Es un tipo específico de URI que no solo identifica un recurso, sino que también proporciona la forma de localizarlo en internet. Incluye el protocolo (por ejemplo, HTTP, FTP) y la dirección del recurso (por ejemplo, `www.ejemplo.com`).
 
-  - **URI (Identificador Uniforme de Recursos)**: Es un término más amplio que hace referencia a cualquier cadena de caracteres que identifica de manera única un recurso. Un URI puede ser una URL o un URN (Nombre Uniforme de Recurso). Un URI no especifica necesariamente cómo localizar el recurso, a diferencia de una URL.
+  - **URI (Identificador Uniforme de Recursos):** Es un término más amplio que hace referencia a cualquier cadena de caracteres que identifica de manera única un recurso. Un URI puede ser una URL o un URN (Nombre Uniforme de Recurso). Un URI no especifica necesariamente cómo localizar el recurso, a diferencia de una URL.
 
   En resumen:
   - **URL** es un tipo específico de **URI** que incluye detalles para localizar un recurso.

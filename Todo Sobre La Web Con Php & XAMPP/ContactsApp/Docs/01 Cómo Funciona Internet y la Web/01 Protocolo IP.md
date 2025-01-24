@@ -15,15 +15,15 @@
 > [!IMPORTANT]
 > *La conexión entre un cliente (como tu computadora) y un servidor (como Google) no es directa. No existe un único cable que los conecte directamente; en cambio, el paquete de datos pasa por varios puntos intermedios, llamados **routers**. Aquí está el flujo típico de una conexión:*
 
-1. **Tu casa**:  
+1. **Tu casa:**  
    - *Te conectas a Internet a través de un router, ya sea por conexión cableada o inalámbrica.*
    - *Este router tiene un cable que sale hacia el exterior y conecta con otro router de tu proveedor de servicios de Internet (ISP).*
 
-2. **Red del proveedor de servicios (ISP)**:  
+2. **Red del proveedor de servicios (ISP):**  
    - *El ISP tiene una red compleja de routers que se extiende por el país y, en algunos casos, incluso a otros países.*
    - *Cada router en esta red tiene una tabla de enrutamiento que decide el siguiente paso para que tu paquete llegue a su destino.*
 
-3. **Destino final (Servidor)**:  
+3. **Destino final (Servidor):**  
    - *Una vez que el paquete llega al servidor (por ejemplo, Google), el sistema operativo del servidor analiza el paquete, identifica el puerto de destino (como el puerto 80 para HTTP) y entrega la petición al programa que atiende las solicitudes en ese puerto.*
 
 *Ejemplo visual:*  

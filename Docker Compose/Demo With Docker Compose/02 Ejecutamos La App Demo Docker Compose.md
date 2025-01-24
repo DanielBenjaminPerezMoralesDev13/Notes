@@ -329,7 +329,7 @@ docker compose -fmongo-services.yaml down
 
 - *Para asegurarte de que MongoDB esté completamente disponible antes de que `mongo-express` intente conectarse, puedes agregar un **mecanismo de espera**. Esto se puede lograr de varias maneras:*
 
-1. **Usar `nc` para esperar a que MongoDB esté listo**:
+1. **Usar `nc` para esperar a que MongoDB esté listo:**
 
    - **Puedes añadir un bucle `until` en el `entrypoint` de `mongo-express` para verificar continuamente si el puerto de MongoDB (`27017`) está abierto y accesible.**
 

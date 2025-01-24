@@ -1242,7 +1242,7 @@ ubuntu             22.04          53a843653cbc   3 weeks ago         77.9MB
 ### ***`musl`***
 
 - **Qué es:** *`musl` es una biblioteca estándar de C ligera y eficiente diseñada para sistemas Linux. Proporciona una implementación completa de la interfaz estándar de C y está optimizada para ser pequeña y rápida.*
-- **Características**:
+- **Características:**
   - **Ligereza:** *`musl` tiene un tamaño de binario más pequeño en comparación con `glibc`, lo que la hace ideal para sistemas con recursos limitados o para construir imágenes Docker pequeñas.*
   - **Compatibilidad:** *Aunque `musl` es compatible con la mayoría de los programas que usan `glibc`, algunas aplicaciones pueden tener problemas si están especialmente ligadas a características específicas de `glibc`.*
   - **Eficiencia:** *`musl` está diseñada para ser rápida y utilizar menos memoria.*
@@ -1258,7 +1258,7 @@ ubuntu             22.04          53a843653cbc   3 weeks ago         77.9MB
 ### ***`glibc` (GNU C Library)***
 
 - **Qué es:** *`glibc` es la biblioteca estándar de C más utilizada en sistemas Linux. Es una implementación completa de la interfaz estándar de C y es muy conocida por su robustez y amplia compatibilidad.*
-- **Características**:
+- **Características:**
   - **Compatibilidad:** *`glibc` ofrece un amplio soporte para características del sistema y extensiones específicas de GNU, lo que la hace adecuada para una gran variedad de aplicaciones y entornos.*
   - **Funcionalidades avanzadas:** *Incluye soporte para muchas características avanzadas del sistema, como la localización, el manejo de hilos, y extensiones específicas de GNU.*
   - **Tamaño y complejidad:** *`glibc` tiende a ser más grande y compleja en comparación con `musl`, lo que puede resultar en imágenes de Docker más grandes y un mayor uso de memoria.*

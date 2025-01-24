@@ -29,7 +29,7 @@ git push origin main
 git push origin mi_rama_local:mi_rama_remota
 ```
 
-- *El carácter **:** se utiliza para especificar qué ramas locales deben ser empujadas a qué ramas remotas.*
+- *El carácter :**** se utiliza para especificar qué ramas locales deben ser empujadas a qué ramas remotas.*
 
 - *Esto enviará los cambios de tu rama local `mi_rama_local` al repositorio remoto llamado `origin` y los fusionará con la rama `mi_rama_remota` en el repositorio remoto.*
 

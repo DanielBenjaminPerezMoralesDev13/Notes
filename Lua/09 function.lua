@@ -73,9 +73,9 @@ end
 --[[
     La diferencia entre `select` y `{...}` radica en cómo se manejan los parámetros variables en Lua.
 
-    - **`select`**: Es una función incorporada en Lua que permite acceder a los argumentos pasados a una función con un número variable de parámetros. Toma un índice y los argumentos pasados a la función, y devuelve el valor del argumento en esa posición. `select("#", ...)` se utiliza para obtener el número total de argumentos pasados a la función.
+    - **`select`:** Es una función incorporada en Lua que permite acceder a los argumentos pasados a una función con un número variable de parámetros. Toma un índice y los argumentos pasados a la función, y devuelve el valor del argumento en esa posición. `select("#", ...)` se utiliza para obtener el número total de argumentos pasados a la función.
 
-    - **`{...}`**: Esta sintaxis se utiliza para crear una tabla que contiene todos los argumentos pasados a la función. Cuando se utiliza `{...}`, se crea una tabla que contiene todos los parámetros pasados, y luego se puede iterar sobre esta tabla para realizar operaciones.
+    - **`{...}`:** Esta sintaxis se utiliza para crear una tabla que contiene todos los argumentos pasados a la función. Cuando se utiliza `{...}`, se crea una tabla que contiene todos los parámetros pasados, y luego se puede iterar sobre esta tabla para realizar operaciones.
 
     Entonces, en el caso de la función `promedio`, se utiliza `select` porque se necesita acceder a los argumentos uno por uno para calcular el promedio. En cambio, en la función `sumarTodosElementos`, se utiliza `{...}` porque se quiere sumar todos los elementos sin necesidad de acceder a ellos de forma individual, sino tratándolos como una tabla.
 ]]

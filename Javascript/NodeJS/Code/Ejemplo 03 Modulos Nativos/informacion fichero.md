@@ -55,10 +55,10 @@ console.log("Tiempo de actividad del sistema:", (os.uptime() / 3600).toFixed(2),
 
 ### ***Explicación del Código***
 
-1. **Importación del Módulo 'os'**:
+1. **Importación del Módulo 'os':**
    - *`import os from 'node:os';`: Importa el módulo `os` usando la sintaxis de ECMAScript Modules. En este caso, se utiliza `'node:os'` para especificar el namespace del módulo, lo cual es necesario en ciertos entornos de desarrollo.*
 
-2. **Impresión de Información del Sistema Operativo**:
+2. **Impresión de Información del Sistema Operativo:**
    - *`os.platform()`: Devuelve el nombre del sistema operativo.*
    - *`os.release()`: Devuelve la versión del sistema operativo.*
    - *`os.arch()`: Devuelve la arquitectura del sistema operativo.*
@@ -68,14 +68,14 @@ console.log("Tiempo de actividad del sistema:", (os.uptime() / 3600).toFixed(2),
    - *`os.loadavg()`: Devuelve un array con la carga promedio del sistema.*
    - *`os.uptime()`: Devuelve el tiempo de actividad del sistema en segundos.*
 
-3. **Conversión de Bytes a MB**:
+3. **Conversión de Bytes a MB:**
    - *`(os.freemem() / 1024 / 1024).toFixed(2)`: Convierte la memoria libre del sistema de bytes a megabytes (MB), redondeando a dos decimales.*
    - *`(os.totalmem() / 1024 / 1024).toFixed(2)`: Convierte la memoria total del sistema de bytes a megabytes (MB), también redondeando a dos decimales.*
 
 ### ***Notas Adicionales***
 
-- ***Uso de ECMAScript Modules (ESM)**: Permite una forma moderna y más estructurada de importar y exportar módulos en JavaScript, mejorando la modularidad y la claridad del código.*
+- ***Uso de ECMAScript Modules (ESM):** Permite una forma moderna y más estructurada de importar y exportar módulos en JavaScript, mejorando la modularidad y la claridad del código.*
   
-- ***Especificación de 'node:os'**: Específicamente en entornos como VS Code, la especificación del namespace `'node:os'` puede ser necesaria para evitar conflictos de importación y asegurar que se esté utilizando el módulo correcto.*
+- ***Especificación de 'node:os':** Específicamente en entornos como VS Code, la especificación del namespace `'node:os'` puede ser necesaria para evitar conflictos de importación y asegurar que se esté utilizando el módulo correcto.*
 
 - *Este código proporciona una manera eficiente y moderna de obtener y mostrar información crucial del sistema operativo utilizando Node.js y ECMAScript Modules.*

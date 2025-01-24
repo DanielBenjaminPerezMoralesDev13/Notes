@@ -37,7 +37,7 @@ if bool ~= nil then
 end
 
 --[[
-1. **Eliminar espacios en blanco al principio y al final**:
+1. **Eliminar espacios en blanco al principio y al final:**
    ```lua
    "^%s*(.-)%s*$"
    ```
@@ -48,7 +48,7 @@ end
    
    Esta expresión regular se utiliza para eliminar los espacios en blanco al principio y al final de una cadena.
 
-2. **Leer como cadena y extraer solo los dígitos**:
+2. **Leer como cadena y extraer solo los dígitos:**
    ```lua
    "^%s*(%d+)%s*$"
    ```
@@ -59,7 +59,7 @@ end
 
    Esta expresión regular se utiliza para leer la entrada del usuario como una cadena y extraer solo los dígitos. Esto se usa en el ejemplo de ingreso de un número entero.
 
-3. **Explicación de los caracteres especiales**:
+3. **Explicación de los caracteres especiales:**
    - `^`: Coincide con el inicio de la cadena.
    - `%s`: Coincide con un espacio en blanco.
    - `*`: Coincide con cero o más repeticiones del elemento anterior.

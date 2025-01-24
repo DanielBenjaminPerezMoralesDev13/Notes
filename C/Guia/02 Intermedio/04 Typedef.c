@@ -84,18 +84,18 @@ int main(void)
 
 ### Explicación Mejorada:
 
-1. **Definición de Estructuras y `typedef`**:
+1. **Definición de Estructuras y `typedef`:**
    - `typedef struct { ... } Fecha;`: Define una estructura `Fecha` que contiene tres campos: `dia`, `mes` y `año`. Esta estructura se renombra como `Fecha` usando `typedef`, lo que permite usar `Fecha` como un tipo de datos en lugar de `struct Fecha`.
 
-2. **Renombramiento de Tipos de Datos**:
+2. **Renombramiento de Tipos de Datos:**
    - `typedef long int Precio;`: Define `Precio` como un alias para `long int`, facilitando el uso de `Precio` en lugar de `long int` para declarar variables.
 
-3. **Declaración y Uso de Variables**:
+3. **Declaración y Uso de Variables:**
    - `Precio recomendado = 80, mayorista = 50, minorista = 90;`: Declara tres variables de tipo `Precio` e inicializa sus valores.
    - `Fecha fecha; fecha.dia = 13; ...`: Crea una variable `fecha` de tipo `Fecha` y asigna valores a sus campos `dia`, `mes` y `año`.
    - `Fecha f = {13, 12, 2005};`: Crea una nueva variable `f` de tipo `Fecha` utilizando inicialización abreviada con los valores `13`, `12` y `2005` para `dia`, `mes` y `año` respectivamente.
 
-4. **Impresión de Valores**:
+4. **Impresión de Valores:**
    - `printf("Fecha: %d/%d/%d\n", f.dia, f.mes, f.año);`: Imprime la fecha almacenada en la variable `f`, mostrando el día, mes y año separados por barras.
 
 Este código ilustra el uso de `typedef` para simplificar la declaración de estructuras y tipos de datos en C, mejorando así la legibilidad y facilitando el mantenimiento del código.

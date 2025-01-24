@@ -201,17 +201,17 @@ ME_CONFIG_MONGODB_AUTH_PASSWORD=pass
 
 ### **Detalles de los servicios:**
 
-- **`app`**:
+- **`app`:**
   - *Usa la imagen privada `d4nitrix13/my-app-private:latest`.*
   - *Mapea el puerto 3000 en el contenedor al puerto 3000 de la máquina host.*
   - *Carga las variables de entorno desde `app.env`.*
 
-- **`mongo-demo`**:
+- **`mongo-demo`:**
   - *Usa la imagen oficial `mongo:latest`.*
   - *Configura las credenciales para el acceso a la base de datos usando secretos (ficheros que contienen las contraseñas, en lugar de escribirlas directamente en el fichero `docker-compose.yaml`).*
   - *Mapea el puerto 27017 del contenedor a `27017` en la máquina host.*
 
-- **`mongo-express`**:
+- **`mongo-express`:**
   - *Utiliza la imagen de `mongo-express` para ofrecer una interfaz web para administrar MongoDB.*
   - *Establece variables de entorno para configuraciones internas, como el nombre de usuario y la contraseña para MongoDB.*
   - *Usa un script en el `entrypoint` para esperar a que MongoDB esté disponible antes de iniciar el contenedor.*

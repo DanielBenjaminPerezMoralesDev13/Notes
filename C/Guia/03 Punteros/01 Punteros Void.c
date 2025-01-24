@@ -38,11 +38,11 @@ int main(void)
 
 Esto representa una operación de casting y dereferenciación de puntero. Aquí está la explicación detallada:
 
-- **`ptr`**: Es un puntero de tipo `void *`. En C, `void *` es un tipo especial de puntero que puede apuntar a cualquier tipo de dato sin tipo específico.
+- **`ptr`:** Es un puntero de tipo `void *`. En C, `void *` es un tipo especial de puntero que puede apuntar a cualquier tipo de dato sin tipo específico.
 
-- **`(char *)ptr`**: Esto es un casting explícito de `ptr` a un puntero de tipo `char *`. El operador `(char *)` indica que `ptr`, que es de tipo `void *`, se está tratando como un puntero a `char`.
+- **`(char *)ptr`:** Esto es un casting explícito de `ptr` a un puntero de tipo `char *`. El operador `(char *)` indica que `ptr`, que es de tipo `void *`, se está tratando como un puntero a `char`.
 
-- **`*(char *)ptr`**: Significa dereferenciar el puntero `ptr` después de haberlo convertido al tipo `char *`. Es decir, estamos accediendo al valor apuntado por `ptr` como si fuera un puntero a `char`.
+- **`*(char *)ptr`:** Significa dereferenciar el puntero `ptr` después de haberlo convertido al tipo `char *`. Es decir, estamos accediendo al valor apuntado por `ptr` como si fuera un puntero a `char`.
 
 ### Significado de Casting en Programación
 
@@ -50,7 +50,7 @@ El casting es una operación en la que se cambia la interpretación del tipo de 
 
 ### Puntero `void *` en Programación
 
-- **`void *`**: Es un tipo especial de puntero en C que puede apuntar a cualquier tipo de dato sin tipo específico. Es útil cuando se desea tener un puntero genérico que pueda apuntar a cualquier tipo de dato y luego se pueda castear a un tipo de dato específico cuando se necesita.
+- **`void *`:** Es un tipo especial de puntero en C que puede apuntar a cualquier tipo de dato sin tipo específico. Es útil cuando se desea tener un puntero genérico que pueda apuntar a cualquier tipo de dato y luego se pueda castear a un tipo de dato específico cuando se necesita.
 
 ### Ejemplo en Código
 

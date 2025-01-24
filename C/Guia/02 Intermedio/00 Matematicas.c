@@ -22,8 +22,8 @@ En conjunto, `-lm` le dice al compilador que debe buscar y enlazar la biblioteca
 
 Cuando se compila y enlaza un programa en C que utiliza funciones de `math.h`, se siguen generalmente dos pasos:
 
-1. **Compilación**: El código fuente de C se convierte en código objeto (fichero `.o`).
-2. **Enlace**: El código objeto se enlaza con las bibliotecas necesarias para crear el ejecutable final.
+1. **Compilación:** El código fuente de C se convierte en código objeto (fichero `.o`).
+2. **Enlace:** El código objeto se enlaza con las bibliotecas necesarias para crear el ejecutable final.
 
 Durante el segundo paso, si el programa utiliza funciones matemáticas, se debe incluir la biblioteca `libm`. Si no se especifica `-lm`, el enlazador no encontrará las definiciones de las funciones matemáticas, lo que resulta en errores de referencia indefinida.
 

@@ -10,7 +10,7 @@
 > [!NOTE]
 > *Ahora utilizaremos una alternativa para gestionar nuestros entornos y dependencias en Python usando **Pipenv**. Este es un administrador de entornos virtuales y dependencias que facilita la gestión de proyectos Python. Puedes encontrar más información en la documentación oficial: [Pipenv Documentation](https://pipenv-es.readthedocs.io/es/latest/) y en [PyPI](https://pypi.org/project/pipenv/).*
 
-**Existen dos métodos para instalar **Pipenv**:**
+**Existen dos métodos para instalar **Pipenv:****
 
 ---
 

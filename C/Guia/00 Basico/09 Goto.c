@@ -12,10 +12,10 @@
 *********************************
 */
 
-// ***Instrucción del preprocesador***: Incluye el fichero de cabecera estándar para entrada y salida (stdio.h).
+// ***Instrucción del preprocesador*:** Incluye el fichero de cabecera estándar para entrada y salida (stdio.h).
 #include <stdio.h>      // stdio.h contiene funciones para operaciones de entrada y salida, como printf.
 
-// ***Función principal***: Todo programa en C debe tener una función principal llamada `main`.
+// ***Función principal*:** Todo programa en C debe tener una función principal llamada `main`.
 int main(void) {
     // Declaración e inicialización de la variable de iteración
     int i = 1;
@@ -39,7 +39,7 @@ inicio: // Etiqueta de destino del goto
 }
 
 /*
-** Ilustración ASCII de Uso de Goto en C **:
+** Ilustración ASCII de Uso de Goto en C :**
 
 1. *Uso de Goto en C*:
    +---------------------------------+

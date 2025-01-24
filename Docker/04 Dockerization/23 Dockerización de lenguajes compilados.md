@@ -14929,7 +14929,7 @@ go/test/zerosize.go
 ls -lA /usr/local/
 ```
 
-- *Esto nos dará una lista de los directorios dentro de `/usr/local/`, incluyendo **go**:*
+- *Esto nos dará una lista de los directorios dentro de `/usr/local/`, incluyendo **go:***
 
 ```bash
 ls -lA /usr/local/
@@ -15052,7 +15052,7 @@ go: to add module requirements and sums:
 ls -lA
 ```
 
-- **Esto mostrará el contenido del directorio, incluyendo el fichero **go.mod**:**
+- **Esto mostrará el contenido del directorio, incluyendo el fichero **go.mod:****
 
 ```bash
 total 8

@@ -71,7 +71,7 @@ import add from "./helpers/add";
 import people from "./helpers/people";
 
 /**
- * # **Función**: ~*Say a message*~
+ * # **Función:** ~*Say a message*~
  * 
  * ```javascript
  * console.log("Daniel Perez")

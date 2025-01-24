@@ -226,7 +226,7 @@ echo "Ejecutando pre-commit hook..."
 
          **Claro, aquí tienes una explicación detallada de cada comando relacionado con la eliminación de submódulos en Git:**
 
-    3. ***`git submodule deinit -f <ruta_del_submódulo>`**:*
+    3. ***`git submodule deinit -f <ruta_del_submódulo>`:***
 
     - *Este comando se utiliza para desinicializar un submódulo en el repositorio.*
 
@@ -235,7 +235,7 @@ echo "Ejecutando pre-commit hook..."
 
     - *`<ruta_del_submódulo>` especifica la ruta del submódulo que se desea desinicializar.*
 
-    1. **`*git rm -f <ruta_del_submódulo>`**:*
+    1. **`*git rm -f <ruta_del_submódulo>`:***
 
     - *Este comando se utiliza para eliminar un submódulo del árbol de trabajo y del índice del repositorio.*
 
@@ -243,7 +243,7 @@ echo "Ejecutando pre-commit hook..."
 
     - *`<ruta_del_submódulo>` especifica la ruta del submódulo que se desea eliminar.*
 
-    1. **`rm *-rf .git/modules/<ruta_del_submódulo>`**:*
+    1. **`rm *-rf .git/modules/<ruta_del_submódulo>`:***
 
     - *Este comando se utiliza para eliminar el directorio del submódulo dentro del directorio `.git/modules` del repositorio.*
 

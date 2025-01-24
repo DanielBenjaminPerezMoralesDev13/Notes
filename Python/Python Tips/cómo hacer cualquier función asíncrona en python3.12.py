@@ -55,20 +55,20 @@ Las funciones asíncronas en Python se definen utilizando la palabra clave `asyn
 
 ### Componentes Clave del Código
 
-1. **Importaciones y Configuración**:
+1. **Importaciones y Configuración:**
    - `to_thread`: Permite ejecutar funciones sincrónicas en un hilo separado y obtener sus resultados de manera asíncrona.
    - `create_task`: Crea una tarea asíncrona que se ejecutará concurrentemente.
    - `run`: Ejecuta la función principal asíncrona en el bucle de eventos de `asyncio`.
 
-2. **Función `fetch_status`**:
+2. **Función `fetch_status`:**
    - Esta función asíncrona usa `await` para llamar a `to_thread`, que a su vez ejecuta la función `get` de la biblioteca `requests` en un hilo separado.
    - La función `fetch_status` realiza una solicitud HTTP GET para obtener el estado del URL proporcionado y devuelve un diccionario con el estado y la URL.
 
-3. **Función `main`**:
+3. **Función `main`:**
    - Crea tareas asíncronas para consultar dos URLs (Apple y Google) de manera concurrente.
    - Usa `await` para esperar la finalización de ambas tareas y luego imprime los resultados.
 
-4. **Ejecución del Programa**:
+4. **Ejecución del Programa:**
    - La función `main` es ejecutada por el bucle de eventos de `asyncio` usando `run(main())`.
 
 ### Código Mejorado con Comentarios
@@ -127,11 +127,11 @@ if __name__ == "__main__":
 
 ### Explicación Adicional
 
-- **`to_thread`**: Convierte una función sincrónica (como `get` de `requests`) en una función que se puede ejecutar de manera asíncrona en un hilo separado. Esto es útil porque `requests` no es asíncrono por sí mismo, y `to_thread` ayuda a evitar que el código bloquee el hilo principal.
+- **`to_thread`:** Convierte una función sincrónica (como `get` de `requests`) en una función que se puede ejecutar de manera asíncrona en un hilo separado. Esto es útil porque `requests` no es asíncrono por sí mismo, y `to_thread` ayuda a evitar que el código bloquee el hilo principal.
   
-- **`create_task`**: Permite que la función asíncrona `fetch_status` se ejecute en paralelo con otras tareas asíncronas. Esto permite que ambas solicitudes HTTP se realicen al mismo tiempo, en lugar de esperar a que una termine antes de comenzar la otra.
+- **`create_task`:** Permite que la función asíncrona `fetch_status` se ejecute en paralelo con otras tareas asíncronas. Esto permite que ambas solicitudes HTTP se realicen al mismo tiempo, en lugar de esperar a que una termine antes de comenzar la otra.
 
-- **`run`**: Ejecuta la función asíncrona `main` en el bucle de eventos de `asyncio`. Esto es necesario para iniciar el procesamiento asíncrono.
+- **`run`:** Ejecuta la función asíncrona `main` en el bucle de eventos de `asyncio`. Esto es necesario para iniciar el procesamiento asíncrono.
 
 Este enfoque permite realizar tareas de red o I/O de manera eficiente sin bloquear el hilo principal, mejorando la eficiencia y el rendimiento del programa.
 """
@@ -143,25 +143,25 @@ En el contexto de la informática y la programación, **I/O** significa **Input/
 
 **Entrada** se refiere a cualquier dato o señal que un programa recibe de una fuente externa. Ejemplos de entrada incluyen:
 
-- **Datos del Usuario**: Datos introducidos por el usuario a través de un teclado, ratón o interfaz gráfica.
-- **Ficheros**: Datos leídos desde ficheros almacenados en un disco duro, SSD o en la nube.
-- **Redes**: Datos recibidos a través de una red, como solicitudes HTTP desde un navegador web.
-- **Sensores**: Datos provenientes de dispositivos de hardware como sensores en un dispositivo IoT (Internet de las cosas).
+- **Datos del Usuario:** Datos introducidos por el usuario a través de un teclado, ratón o interfaz gráfica.
+- **Ficheros:** Datos leídos desde ficheros almacenados en un disco duro, SSD o en la nube.
+- **Redes:** Datos recibidos a través de una red, como solicitudes HTTP desde un navegador web.
+- **Sensores:** Datos provenientes de dispositivos de hardware como sensores en un dispositivo IoT (Internet de las cosas).
 
 ### 2. **Output (Salida)**
 
 **Salida** se refiere a cualquier dato o señal que un programa envía a una fuente externa. Ejemplos de salida incluyen:
 
-- **Pantalla**: Información mostrada en una pantalla o ventana gráfica.
-- **Ficheros**: Datos escritos en ficheros en un disco o en la nube.
-- **Redes**: Datos enviados a través de una red, como respuestas HTTP desde un servidor web.
-- **Dispositivos**: Información enviada a dispositivos de hardware, como impresoras o altavoces.
+- **Pantalla:** Información mostrada en una pantalla o ventana gráfica.
+- **Ficheros:** Datos escritos en ficheros en un disco o en la nube.
+- **Redes:** Datos enviados a través de una red, como respuestas HTTP desde un servidor web.
+- **Dispositivos:** Información enviada a dispositivos de hardware, como impresoras o altavoces.
 
 ### 3. **Ejemplos en Programación**
 
 En programación, el manejo de I/O es crucial porque permite que los programas interactúen con el entorno. Ejemplos en diferentes contextos incluyen:
 
-- **Lectura de Ficheros**: Leer datos de un fichero de texto o binario.
+- **Lectura de Ficheros:** Leer datos de un fichero de texto o binario.
   ```python
   from io import TextIOWrapper
   from typing import Optional 
@@ -170,7 +170,7 @@ En programación, el manejo de I/O es crucial porque permite que los programas i
       data = file.read()
   ```
   
-- **Escritura de Ficheros**: Escribir datos en un fichero.
+- **Escritura de Ficheros:** Escribir datos en un fichero.
   ```python
   from io import TextIOWrapper
   from typing import Optional 
@@ -180,12 +180,12 @@ En programación, el manejo de I/O es crucial porque permite que los programas i
       file.write('Hello, world!')
   ```
 
-- **Interacción con el Usuario**: Leer entrada del usuario desde la consola.
+- **Interacción con el Usuario:** Leer entrada del usuario desde la consola.
   ```python
   userInput: str = str(input('Enter something: '))
   ```
 
-- **Redes**: Hacer una solicitud HTTP para obtener datos de una página web.
+- **Redes:** Hacer una solicitud HTTP para obtener datos de una página web.
   ```python
   from requests import Response, get
   response: Response = get(url = 'https://www.example.com')
@@ -194,9 +194,9 @@ En programación, el manejo de I/O es crucial porque permite que los programas i
 
 ### 4. **I/O Bloqueante vs. No Bloqueante**
 
-- **I/O Bloqueante**: El proceso se detiene mientras espera que la operación de I/O se complete. Por ejemplo, una lectura de fichero o una solicitud de red puede hacer que el programa se quede esperando hasta que la operación finalice.
+- **I/O Bloqueante:** El proceso se detiene mientras espera que la operación de I/O se complete. Por ejemplo, una lectura de fichero o una solicitud de red puede hacer que el programa se quede esperando hasta que la operación finalice.
 
-- **I/O No Bloqueante**: El proceso puede continuar ejecutándose mientras se realiza la operación de I/O. Esto se logra a través de técnicas como la programación asíncrona o el uso de múltiples hilos. Permite que el programa realice otras tareas mientras espera que la operación de I/O se complete.
+- **I/O No Bloqueante:** El proceso puede continuar ejecutándose mientras se realiza la operación de I/O. Esto se logra a través de técnicas como la programación asíncrona o el uso de múltiples hilos. Permite que el programa realice otras tareas mientras espera que la operación de I/O se complete.
 
 ### 5. **Importancia en Programación**
 

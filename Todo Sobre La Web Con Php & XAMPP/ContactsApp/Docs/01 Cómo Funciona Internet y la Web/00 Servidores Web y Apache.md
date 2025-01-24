@@ -48,7 +48,7 @@
 - Los **puertos** *son puntos de conexión que permiten que los servicios en una máquina sean accesibles desde Internet o una red local.*
 - El rango de puertos posibles va de **0 a 65535** *(2¹⁶ combinaciones, ya que un puerto es un número de 16 bits). Sin embargo, los **puertos reservados** (0-1023) están destinados a servicios bien conocidos, como:*
   - **80:** *HTTP.*
-  - **443**:*HTTPS.*
+  - **443:***HTTPS.*
   - **21:** *FTP.*
   - **22:** *SSH.*
 

@@ -11,10 +11,10 @@
 *******************************************
 */
 
-// ***Instrucción del preprocesador***: Incluye el fichero de cabecera estándar para entrada y salida (stdio.h).
+// ***Instrucción del preprocesador*:** Incluye el fichero de cabecera estándar para entrada y salida (stdio.h).
 #include <stdio.h>      // stdio.h contiene funciones para operaciones de entrada y salida, como printf y scanf.
 
-// ***Función principal***: Todo programa en C debe tener una función principal llamada `main`.
+// ***Función principal*:** Todo programa en C debe tener una función principal llamada `main`.
 int main(void) {
     // Declaración de variables
     int num;
@@ -73,7 +73,7 @@ int main(void) {
 }
 
 /*
-** Ilustración ASCII de Entrada y Salida de Datos en C **:
+** Ilustración ASCII de Entrada y Salida de Datos en C :**
 
 1. *Entrada y Salida de Datos en C*:
    +------------------------------------------------------------+
@@ -124,9 +124,9 @@ int main(void) {
 
 En programación, un **buffer** se refiere a una región de memoria temporal utilizada para almacenar datos mientras se transfieren de un lugar a otro. En el contexto de entrada y salida (I/O) en C:
 
-- **Buffer de Entrada (stdin)**: Cuando se lee entrada desde el teclado (stdin) usando funciones como `scanf` o `fgets`, los datos se almacenan temporalmente en un buffer interno antes de ser procesados por el programa. Este buffer permite que el programa maneje eficientemente la entrada y realice operaciones con ella.
+- **Buffer de Entrada (stdin):** Cuando se lee entrada desde el teclado (stdin) usando funciones como `scanf` o `fgets`, los datos se almacenan temporalmente en un buffer interno antes de ser procesados por el programa. Este buffer permite que el programa maneje eficientemente la entrada y realice operaciones con ella.
 
-- **Limpiar el Buffer de Entrada**: A veces es necesario limpiar o vaciar el buffer de entrada para evitar que datos adicionales (como saltos de línea o caracteres inesperados) interfieran con las próximas operaciones de entrada. Esto es especialmente útil cuando se alternan entre leer diferentes tipos de datos o se desea asegurar que no queden caracteres no deseados en el buffer.
+- **Limpiar el Buffer de Entrada:** A veces es necesario limpiar o vaciar el buffer de entrada para evitar que datos adicionales (como saltos de línea o caracteres inesperados) interfieran con las próximas operaciones de entrada. Esto es especialmente útil cuando se alternan entre leer diferentes tipos de datos o se desea asegurar que no queden caracteres no deseados en el buffer.
 
 ### Uso de `fflush(stdin)` en C
 

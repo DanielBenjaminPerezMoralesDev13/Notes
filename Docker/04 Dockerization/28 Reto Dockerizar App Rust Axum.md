@@ -253,7 +253,7 @@ source "$HOME/.cargo/env.fish"  # For fish
 cargo build
 ```
 
-- *Durante la construcción, se puede recibir el siguiente error relacionado con el **linker**:*
+- *Durante la construcción, se puede recibir el siguiente error relacionado con el **linker:***
 
 ```bash
 error: linker `cc` not found

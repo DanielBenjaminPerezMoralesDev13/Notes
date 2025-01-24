@@ -9,20 +9,20 @@
 
 ## _**Files**_
 
-1. **Hello World.py**: _A simple script that prints "Hello, World!" to the console._
-2. **Variables.py**: _Introduces the concept of variables in Python and how to assign values to them._
-3. **Operators.py**: _Explores basic operators such as addition, subtraction, multiplication, and division in Python._
-4. **Strings.py**: _Covers basic string operations and manipulations._
-5. **Lists.py**: _Introduces lists, a fundamental data structure in Python._
-6. **Tuples.py**: _Explains tuples and their differences from lists._
-7. **Sets.py**: _Introduces sets and their unique properties._
-8. **Dictionary.py**: _Explores the use of dictionaries to map keys to values._
-9. **Conditionals.py**: _Introduces conditional statements (if, else, elif) in Python._
-10. **Loops.py**: _Covers loops such as for and while for iteration in Python._
-11. **Functions.py**: _Introduces how to define and use functions in Python._
-12. **Classes.py**: _Explores object-oriented programming in Python by creating classes and objects._
-13. **Exceptions.py**: _Introduces exception handling to manage errors in Python._
-14. **Modules.py**: _Explains how to import and use modules in Python._
+1. **Hello World.py:** _A simple script that prints "Hello, World!" to the console._
+2. **Variables.py:** _Introduces the concept of variables in Python and how to assign values to them._
+3. **Operators.py:** _Explores basic operators such as addition, subtraction, multiplication, and division in Python._
+4. **Strings.py:** _Covers basic string operations and manipulations._
+5. **Lists.py:** _Introduces lists, a fundamental data structure in Python._
+6. **Tuples.py:** _Explains tuples and their differences from lists._
+7. **Sets.py:** _Introduces sets and their unique properties._
+8. **Dictionary.py:** _Explores the use of dictionaries to map keys to values._
+9. **Conditionals.py:** _Introduces conditional statements (if, else, elif) in Python._
+10. **Loops.py:** _Covers loops such as for and while for iteration in Python._
+11. **Functions.py:** _Introduces how to define and use functions in Python._
+12. **Classes.py:** _Explores object-oriented programming in Python by creating classes and objects._
+13. **Exceptions.py:** _Introduces exception handling to manage errors in Python._
+14. **Modules.py:** _Explains how to import and use modules in Python._
 
 ## **Usage**
 

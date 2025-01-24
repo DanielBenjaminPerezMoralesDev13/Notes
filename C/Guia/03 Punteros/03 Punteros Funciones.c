@@ -70,11 +70,11 @@ Entonces, `int (*ptrFuncion)(int, int);` declara un puntero `ptrFuncion` que pue
 
 El programa completo utiliza un puntero a función `ptrFuncion` para poder llamar dinámicamente a las funciones `sumar` y `restar` según sea necesario:
 
-1. **Declaración y Asignación del Puntero a Función**:
+1. **Declaración y Asignación del Puntero a Función:**
    - `int (*ptrFuncion)(int, int);`: Declara `ptrFuncion` como un puntero a función que toma dos enteros y devuelve un entero.
    - `ptrFuncion = &sumar;`: Asigna la dirección de `sumar` a `ptrFuncion`, lo que permite llamar a `sumar` a través de `ptrFuncion`.
 
-2. **Uso del Puntero a Función**:
+2. **Uso del Puntero a Función:**
    - `(*ptrFuncion)(5, 3);`: Llama a la función apuntada por `ptrFuncion`, que puede ser `sumar` o `restar`, dependiendo de la asignación anterior.
    - `printf("Resultado de la suma: %d\n", resultadoSuma);`: Imprime el resultado de la operación, ya sea suma o resta, dependiendo de la función a la que `ptrFuncion` apunte.
 

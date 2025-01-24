@@ -13,26 +13,26 @@
 
 **Para instalar `dig` en Linux, necesitas instalar el paquete `dnsutils`. Dependiendo de tu distribución de Linux, puedes usar el gestor de paquetes correspondiente. Aquí tienes los comandos para algunas distribuciones populares:**
 
-- **Ubuntu/Debian**:
+- **Ubuntu/Debian:**
 
 ```bash
 sudo apt-get update
 sudo apt-get install dnsutils
 ```
 
-- **CentOS/RHEL**:
+- **CentOS/RHEL:**
 
 ```bash
 sudo yum install bind-utils
 ```
 
-- **Fedora**:
+- **Fedora:**
 
 ```bash
 sudo dnf install bind-utils
 ```
 
-- **OpenSUSE**:
+- **OpenSUSE:**
 
 ```bash
 sudo zypper install bind-utils

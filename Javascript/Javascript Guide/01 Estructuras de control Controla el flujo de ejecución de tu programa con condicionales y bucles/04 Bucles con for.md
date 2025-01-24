@@ -176,7 +176,7 @@ for (let i = 1; i <= 10; i++) {
    }
    ```
 
-2. **Correcto**:
+2. **Correcto:**
 
    ```javascript
    // Autor: Daniel Benjamin Perez Morales

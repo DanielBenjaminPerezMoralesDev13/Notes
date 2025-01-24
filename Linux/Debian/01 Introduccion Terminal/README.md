@@ -28,13 +28,13 @@
 
    2. *script es el nombre del fichero y lo que esta luego del punto es la extension del fichero*
 
-3. ***.**: Representa el directorio actual.*
+3. ***.:** Representa el directorio actual.*
 
-4. ***~**: Representa el directorio home del usuario actual.*
+4. ***~:** Representa el directorio home del usuario actual.*
 
    1. *Por ejemplo, si tu nombre de usuario es daniel, ~ generalmente se traduciría a /home/daniel.*
 
-5. ***..**: Representa el directorio padre del directorio actual. Entonces, si estás en /home/daniel/Escritorio/directorio y ejecutas cd .., te moverías al directorio /home/daniel/Escritorio.*
+5. ***..:** Representa el directorio padre del directorio actual. Entonces, si estás en /home/daniel/Escritorio/directorio y ejecutas cd .., te moverías al directorio /home/daniel/Escritorio.*
 
    1. ***Ejemplo:** ../descargas: Esto te movería al directorio descargas que se encuentra en el mismo nivel que tu directorio actual. Entonces, si estás en /home/daniel/Escritorio/directorio y ejecutas*
 

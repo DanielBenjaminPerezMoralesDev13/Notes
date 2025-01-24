@@ -101,14 +101,14 @@ int comparar_enteros(const void *a, const void *b)
 
 ### Explicación de `qsort` y su Uso:
 
-1. **Declaración y Uso de `qsort`**:
+1. **Declaración y Uso de `qsort`:**
    - `qsort(arreglo, tamano, sizeof(int), comparar_enteros);`
      - `arreglo`: Es el puntero al inicio del arreglo que se desea ordenar.
      - `tamano`: Es el número de elementos en el arreglo.
      - `sizeof(int)`: Es el tamaño en bytes de cada elemento del arreglo (en este caso, enteros).
      - `comparar_enteros`: Es la función de comparación que define el orden deseado.
 
-2. **Función de Comparación `comparar_enteros`**:
+2. **Función de Comparación `comparar_enteros`:**
    - `int comparar_enteros(const void *a, const void *b)`: Esta función toma dos punteros `void *` como parámetros, que luego son convertidos a punteros a enteros (`int *`).
    - `int intA = *(int *)a;` y `int intB = *(int *)b;`: Estas líneas convierten los punteros `void *` a enteros para realizar la comparación.
    - La función compara `intA` y `intB`:
@@ -117,7 +117,7 @@ int comparar_enteros(const void *a, const void *b)
      - Si son iguales, retorna `0`.
    - Estos valores de retorno determinan el ordenamiento ascendente del arreglo en función de cómo la función de comparación interpreta los elementos.
 
-3. **Ordenamiento y Salida**:
+3. **Ordenamiento y Salida:**
    - Después de llamar a `qsort`, el arreglo `arreglo` queda ordenado de menor a mayor según la función de comparación `comparar_enteros`.
    - Se imprime el arreglo ordenado usando un bucle `for` simple.
 

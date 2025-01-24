@@ -4,7 +4,7 @@
 <!-- Correo electrónico: danielperezdev@proton.me -->
 # ***Expresiones regulares***
 
-1. ***Usando `*` para coincidir con cero o más caracteres**:*
+1. ***Usando `*` para coincidir con cero o más caracteres:***
 
    *- Eliminar todos los ficheros en el directorio actual:*
 
@@ -24,7 +24,7 @@
    rm f*
    ```
 
-2. **Usando `?` para coincidir con un solo carácter**:
+2. **Usando `?` para coincidir con un solo carácter:**
 
    - *Eliminar todos los ficheros `.py` con un solo carácter en el nombre:*
 
@@ -38,7 +38,7 @@
    rm a?.py
    ```
 
-3. **Usando `[]` para coincidir con uno de los caracteres incluidos**:
+3. **Usando `[]` para coincidir con uno de los caracteres incluidos:**
 
    - *Eliminar los ficheros `fA.py`, `fB.py` y `fC.py`:*
 
@@ -58,7 +58,7 @@
    rm f[0-9].py
    ```
 
-4. **Usando `{}` para coincidir con una de las cadenas incluidas**:
+4. **Usando `{}` para coincidir con una de las cadenas incluidas:**
 
    - *Eliminar los ficheros `fAB.py` y `fDC.py`:*
 

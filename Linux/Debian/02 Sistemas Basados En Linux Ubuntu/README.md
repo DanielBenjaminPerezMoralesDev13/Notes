@@ -949,11 +949,11 @@ chmod u=rwx directory
 
 ### ***Permisos necesarios para borrar un directorio***
 
-1. **Permiso de escritura (`w`)** en el **directorio padre**:  
+1. **Permiso de escritura (`w`)** en el **directorio padre:**  
    - *Necesitas permiso de escritura en el directorio que **contiene** el directorio que deseas eliminar.*
    - *Esto permite que el sistema modifique el contenido del directorio padre (elimina la referencia al directorio que se está borrando).*
 
-2. **Permiso de ejecución (`x`)** en el **directorio a borrar**:  
+2. **Permiso de ejecución (`x`)** en el **directorio a borrar:**  
    - *Necesitas este permiso para poder acceder al contenido del directorio y procesar su eliminación.*
 
 3. **Permiso de escritura y ejecución (`wx`)** dentro del directorio mismo (si no está vacío):  

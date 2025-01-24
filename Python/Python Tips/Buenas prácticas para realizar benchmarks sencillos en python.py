@@ -107,24 +107,24 @@ Siguiendo estas prácticas, puedes realizar benchmarks más precisos y útiles p
 """
 # Parámetros en `timeit` y `repeat`
 
-1. **`stmt`**:
+1. **`stmt`:**
    - **Qué es:** `stmt` es un parámetro que representa el código que quieres medir. Es una cadena de texto que contiene el código que se va a ejecutar y cuyo tiempo de ejecución deseas medir.
    - **Uso:** Este parámetro se utiliza para especificar el bloque de código a ser ejecutado repetidamente. Por ejemplo, en tu caso, `stmt=list_comp` y `stmt=for_loop` son bloques de código que crean listas usando comprensión de listas y un bucle `for`, respectivamente.
 
-2. **`repeat`**:
+2. **`repeat`:**
    - **Qué es:** `repeat` es un parámetro utilizado en la función `repeat` del módulo `timeit`. Indica cuántas veces se debe ejecutar el código especificado en `stmt` para obtener una lista de tiempos de ejecución.
    - **Uso:** `repeat` ejecuta el código `stmt` un número determinado de veces y devuelve una lista con los tiempos de ejecución de cada repetición. Esto te permite obtener una idea de cómo varía el tiempo de ejecución en diferentes ejecuciones. En tu código, `repeat=5` significa que el código se ejecutará 5 veces y se recogerán los tiempos de cada ejecución.
 
-3. **`number`**:
+3. **`number`:**
    - **Qué es:** `number` es un parámetro que se usa en ambas funciones `timeit` y `repeat`. Indica cuántas veces debe ejecutarse el código `stmt` en cada repetición de la medición.
    - **Uso:** `number` especifica el número de veces que el código debe ser ejecutado en una sola llamada a la función. Por ejemplo, `number=1_000_000` significa que el código en `stmt` se ejecutará 1,000,000 veces en cada repetición. Esto ayuda a obtener una medición precisa del tiempo necesario para ejecutar el código un gran número de veces.
 
 ## Ejemplo Explicativo
 
 ### Resumen
-- **`stmt`**: El código a medir (como una cadena de texto).
-- **`repeat`**: Cuántas veces ejecutar el código para obtener una lista de tiempos.
-- **`number`**: Cuántas veces ejecutar el código en cada repetición para medir el tiempo total.
+- **`stmt`:** El código a medir (como una cadena de texto).
+- **`repeat`:** Cuántas veces ejecutar el código para obtener una lista de tiempos.
+- **`number`:** Cuántas veces ejecutar el código en cada repetición para medir el tiempo total.
 
 Estos parámetros te permiten ajustar el nivel de precisión y detalle de tus benchmarks para evaluar el rendimiento de diferentes enfoques en Python.
 """

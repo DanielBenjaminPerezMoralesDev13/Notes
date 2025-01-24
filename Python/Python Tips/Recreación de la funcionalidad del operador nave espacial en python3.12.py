@@ -36,7 +36,7 @@ Para recrear esta funcionalidad en versiones anteriores a Python 3.12, puedes us
 
 ### Explicación del Código
 
-1. **Inicialización**:
+1. **Inicialización:**
    ```python
    from sys import stdout
    from typing import Optional
@@ -46,13 +46,13 @@ Para recrear esta funcionalidad en versiones anteriores a Python 3.12, puedes us
    ```
    Aquí se importan `stdout` para la salida estándar y `Optional` para permitir que `x` y `y` puedan ser `int` o `None`.
 
-2. **Asignación de Valores**:
+2. **Asignación de Valores:**
    ```python
    x, y = 1, 0
    ```
    Se asignan los valores `1` a `x` y `0` a `y`.
 
-3. **Comparación y Cálculo del Resultado**:
+3. **Comparación y Cálculo del Resultado:**
    ```python
    result: int = (x > y) - (x < y)
    ```
@@ -63,7 +63,7 @@ Para recrear esta funcionalidad en versiones anteriores a Python 3.12, puedes us
      - Si `x` es menor que `y`, el resultado será `0 - 1 = -1`.
      - Si `x` es igual a `y`, el resultado será `0 - 0 = 0`.
 
-4. **Impresión del Resultado**:
+4. **Impresión del Resultado:**
    ```python
    print(result, end="\n", file=stdout)
    ```

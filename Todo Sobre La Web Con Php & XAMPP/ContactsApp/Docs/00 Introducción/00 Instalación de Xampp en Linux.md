@@ -211,7 +211,7 @@ sudo apt-get install -y libx11-6
    sudo ./manager-linux-x64.run
    ```
 
-- **1. **Comando con `docker container inspect`**:**
+- **1. **Comando con `docker container inspect`:****
 
 ```bash
 curl http://"$(docker container inspect --format "{{.NetworkSettings.IPAddress}}" $(docker container list --all --filter status=running --filter network=bridge --filter publish=80 --filter expose=80 --quiet))"/dashboard/
@@ -219,11 +219,11 @@ curl http://"$(docker container inspect --format "{{.NetworkSettings.IPAddress}}
 
 - **Explicación:**
 
-1. **`docker container inspect`**:
+1. **`docker container inspect`:**
    - *Este comando se utiliza para obtener detalles de un contenedor Docker en particular.*
    - **`--format "{{.NetworkSettings.IPAddress}}"`:** *Aquí, le estás pidiendo al comando que te devuelva la dirección IP del contenedor en formato de texto. Esta es la IP interna que Docker asigna al contenedor dentro de su red `bridge`.*
 
-2. **`docker container list --all --filter status=running --filter network=bridge --filter publish=80 --filter expose=80 --quiet`**:
+2. **`docker container list --all --filter status=running --filter network=bridge --filter publish=80 --filter expose=80 --quiet`:**
    - **`docker container list`:** *Este comando lista los contenedores activos.*
    - **`--all`:** *Muestra todos los contenedores, incluso los detenidos.*
    - **`--filter status=running`:** *Filtra para mostrar solo los contenedores que están en ejecución.*
@@ -232,16 +232,16 @@ curl http://"$(docker container inspect --format "{{.NetworkSettings.IPAddress}}
    - **`--filter expose=80`:** *Filtra contenedores que exponen el puerto 80 dentro del contenedor.*
    - **`--quiet`:** *Muestra solo los IDs de los contenedores sin detalles adicionales.*
 
-3. **Resultado**:
+3. **Resultado:**
    *Este comando construye dinámicamente la URL con la IP interna del contenedor que está ejecutando en la red `bridge` y accede al endpoint `/dashboard/`.*
 
-4. **`curl`**:
+4. **`curl`:**
    - *Finalmente, `curl` realiza una solicitud HTTP al endpoint `/dashboard/` del contenedor usando la IP interna que obtuvo previamente.*
 
 - **Resumen de lo que hace:**
 - *Este comando obtiene la IP de un contenedor que está en ejecución y que tiene el puerto 80 expuesto y accesible desde la red `bridge`. Luego, hace una solicitud `GET` al endpoint `/dashboard/` del contenedor, que podría ser la interfaz de administración o el dashboard de una aplicación web en ese contenedor.*
 
-- **2. **Comando con IP estática**:**
+- **2. **Comando con IP estática:****
 
 ```bash
 curl http://172.17.0.2/dashboard/

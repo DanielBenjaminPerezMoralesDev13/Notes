@@ -63,7 +63,7 @@ services:
 - *Si tienes un contenedor que depende de una base de datos MongoDB, puedes usar **`wait-for-it.sh`** para esperar que MongoDB esté listo antes de ejecutar tu aplicación:*
 
 1. *Primero, descargas el script **`wait-for-it.sh`** y lo colocas en tu contenedor o Dockerfile.*
-2. *Luego, en tu **docker-compose.yml**:*
+2. *Luego, en tu **docker-compose.yml:***
 
 ```bash
 wget https://raw.githubusercontent.com/vishnubob/wait-for-it/refs/heads/master/wait-for-it.sh

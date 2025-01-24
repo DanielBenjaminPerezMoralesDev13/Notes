@@ -23,15 +23,15 @@
 
 ***"Advanced Persistent Threats" (Amenazas Persistentes Avanzadas).***
 
-**Actores**:
+**Actores:**
 
 > *Estados Nacionales o Grupos Organizados: Los APTs a menudo son respaldados por estados nacionales, como agencias de inteligencia o fuerzas militares. También pueden ser llevados a cabo por grupos organizados con recursos significativos.*
 
-**Objetivos**:
+**Objetivos:**
 
 > *Espionaje o Sabotaje a Largo Plazo: Los APTs buscan acceder y mantenerse en sistemas durante un período prolongado sin ser detectados. Los objetivos pueden incluir el robo de información sensible, el sabotaje de infraestructuras críticas, etc.*
 
-**Sofisticación**:
+**Sofisticación:**
 
 > *Altamente Sofisticados: Los APTs suelen utilizar técnicas avanzadas de ingeniería social, exploits y malware personalizado. Pueden adaptarse y evolucionar para evadir la detección.*
 
@@ -39,15 +39,15 @@
 
 # ***APTs-Personas***
 
-**Actores**:
+**Actores:**
 
 > *Individuos o Grupos del Crimen Organizado: Los criminales comunes pueden ser individuos o grupos que buscan obtener beneficios financieros a través de actividades ilícitas en línea.*
 
-**Objetivos**:
+**Objetivos:**
 
 > *Robo de Datos, Fraude Financiero, Extorsión: Los criminales comunes suelen centrarse en actividades delictivas tradicionales en línea, como el robo de información personal para el fraude financiero, la extorsión o la venta de información en el mercado negro.*
 
-**Sofisticación**:
+**Sofisticación:**
 
 > *Varía en Sofisticación: Aunque algunos criminales comunes pueden utilizar tácticas avanzadas, muchos dependen de métodos más comunes, como phishing, ransomware o ataques más oportunistas.*
 
@@ -59,25 +59,25 @@
 
 ***Tipos***
 
-1. **Smishing - "SMS" y "phishing"**:
+1. **Smishing - "SMS" y "phishing":**
 
    1. > *Definición: Es una variante de phishing que utiliza mensajes de texto (SMS) para engañar a las víctimas.*
 
    2. **Ejemplo:** *Un mensaje de texto falso que solicita hacer clic en un enlace o proporcionar información personal.*
 
-2. **Vishing - "voice" (voz) y "phishing"**:
+2. **Vishing - "voice" (voz) y "phishing":**
 
    1. > *Definición: Es el phishing que se realiza a través de llamadas telefónicas.*
 
    2. **Ejemplo:** *Una llamada telefónica automática que simula ser de un banco y pide al receptor que marque un número para "resolver un problema".*
 
-3. **Spear Phishing - phishing dirigido" o "phishing personalizado"**:
+3. **Spear Phishing - phishing dirigido" o "phishing personalizado":**
 
    1. > *Definición: Es un ataque dirigido a individuos o empresas específicas, personalizando los mensajes para aumentar la probabilidad de éxito.*
 
    2. **Ejemplo:** *Un correo electrónico dirigido a un empleado de una empresa con información específica sobre proyectos internos.*
 
-4. **QRishing - "QR" y "phishing"**:
+4. **QRishing - "QR" y "phishing":**
    1. > *Definición: Implica el uso de códigos QR para dirigir a las víctimas a sitios web maliciosos.*
    2. **Ejemplo:** *Un código QR en un póster que, cuando se escanea, lleva a una página falsa de inicio de sesión.*
 

@@ -100,19 +100,19 @@ def primer_ejemplo() -> None:
     print(f"{n:,}", end = "\n", file = stdout)
 ```
 
-- **`n: Union[int, float] = 1_000_000_000`**: Aquí se define una variable `n` que puede ser un entero o un flotante, inicializada con un valor grande.
+- **`n: Union[int, float] = 1_000_000_000`:** Aquí se define una variable `n` que puede ser un entero o un flotante, inicializada con un valor grande.
   
-- **`print(f"{n}", end = "\n", file = stdout)`**: Imprime el valor de `n` tal cual, sin ningún formato especial.
+- **`print(f"{n}", end = "\n", file = stdout)`:** Imprime el valor de `n` tal cual, sin ningún formato especial.
 
-- **`n = 1e9`**: Asigna el valor de `n` en notación científica. `1e9` es igual a `1,000,000,000`.
+- **`n = 1e9`:** Asigna el valor de `n` en notación científica. `1e9` es igual a `1,000,000,000`.
 
-- **`print(f"{n}", end = "\n", file = stdout)`**: Imprime el valor de `n` en notación científica.
+- **`print(f"{n}", end = "\n", file = stdout)`:** Imprime el valor de `n` en notación científica.
 
-- **`n = 1000000000`**: Asigna un valor de número entero sin formato especial.
+- **`n = 1000000000`:** Asigna un valor de número entero sin formato especial.
 
-- **`print(f"{n:_}", end = "\n", file = stdout)`**: Imprime el valor de `n` usando `_` como separador de miles (esto requiere Python 3.6 o superior).
+- **`print(f"{n:_}", end = "\n", file = stdout)`:** Imprime el valor de `n` usando `_` como separador de miles (esto requiere Python 3.6 o superior).
 
-- **`print(f"{n:,}", end = "\n", file = stdout)`**: Imprime el valor de `n` con comas como separador de miles.
+- **`print(f"{n:,}", end = "\n", file = stdout)`:** Imprime el valor de `n` con comas como separador de miles.
 
 ### 2. **segundo_ejemplo()**
 Esta función muestra cómo alinear y rellenar cadenas con varios caracteres.
@@ -129,19 +129,19 @@ def segundo_ejemplo() -> None:
     print(f"{var:|^20}:", end = "\n", file = stdout)
 ```
 
-- **`var: str = "var"`**: Define una cadena `var` con el valor `"var"`.
+- **`var: str = "var"`:** Define una cadena `var` con el valor `"var"`.
 
-- **`print(f"{var:>20}:", end = "\n", file = stdout)`**: Imprime `var` alineado a la derecha en un campo de 20 caracteres.
+- **`print(f"{var:>20}:", end = "\n", file = stdout)`:** Imprime `var` alineado a la derecha en un campo de 20 caracteres.
 
-- **`print(f"{var:<20}:", end = "\n", file = stdout)`**: Imprime `var` alineado a la izquierda en un campo de 20 caracteres.
+- **`print(f"{var:<20}:", end = "\n", file = stdout)`:** Imprime `var` alineado a la izquierda en un campo de 20 caracteres.
 
-- **`print(f"{var:^20}:", end = "\n", file = stdout)`**: Imprime `var` centrado en un campo de 20 caracteres.
+- **`print(f"{var:^20}:", end = "\n", file = stdout)`:** Imprime `var` centrado en un campo de 20 caracteres.
 
-- **`print(f"{var:_>20}:", end = "\n", file = stdout)`**: Imprime `var` alineado a la derecha en un campo de 20 caracteres, rellenado con guiones bajos (`_`).
+- **`print(f"{var:_>20}:", end = "\n", file = stdout)`:** Imprime `var` alineado a la derecha en un campo de 20 caracteres, rellenado con guiones bajos (`_`).
 
-- **`print(f"{var:#<20}:", end = "\n", file = stdout)`**: Imprime `var` alineado a la izquierda en un campo de 20 caracteres, rellenado con signos de número (`#`).
+- **`print(f"{var:#<20}:", end = "\n", file = stdout)`:** Imprime `var` alineado a la izquierda en un campo de 20 caracteres, rellenado con signos de número (`#`).
 
-- **`print(f"{var:|^20}:", end = "\n", file = stdout)`**: Imprime `var` centrado en un campo de 20 caracteres, rellenado con barras verticales (`|`).
+- **`print(f"{var:|^20}:", end = "\n", file = stdout)`:** Imprime `var` centrado en un campo de 20 caracteres, rellenado con barras verticales (`|`).
 
 ### 3. **tercer_ejemplo()**
 Esta función muestra cómo formatear fechas y horas.
@@ -154,13 +154,13 @@ def tercer_ejemplo() -> None:
     print(f"{now:%I%p}", end = "\n", file = stdout)
 ```
 
-- **`now: datetime = datetime.now()`**: Obtiene la fecha y hora actuales.
+- **`now: datetime = datetime.now()`:** Obtiene la fecha y hora actuales.
 
-- **`print(f"{now:%d.%m.%y (%H:%M:%S)}", end = "\n", file = stdout)`**: Imprime la fecha y hora en el formato `día.mes.año (hora:minuto:segundo)`.
+- **`print(f"{now:%d.%m.%y (%H:%M:%S)}", end = "\n", file = stdout)`:** Imprime la fecha y hora en el formato `día.mes.año (hora:minuto:segundo)`.
 
-- **`print(f"{now:%c}", end = "\n", file = stdout)`**: Imprime la fecha y hora en formato completo, usando el formato de fecha y hora corto del sistema.
+- **`print(f"{now:%c}", end = "\n", file = stdout)`:** Imprime la fecha y hora en formato completo, usando el formato de fecha y hora corto del sistema.
 
-- **`print(f"{now:%I%p}", end = "\n", file = stdout)`**: Imprime la hora en formato de 12 horas seguido del AM/PM.
+- **`print(f"{now:%I%p}", end = "\n", file = stdout)`:** Imprime la hora en formato de 12 horas seguido del AM/PM.
 
 ### 4. **cuarto_ejemplo()**
 Esta función muestra cómo formatear números flotantes con diferentes precisiones y separadores.
@@ -176,19 +176,19 @@ def cuarto_ejemplo() -> None:
     print(f"{n:_.3f}", end = "\n", file = stdout)
 ```
 
-- **`n: float = 1234.5678`**: Define un número flotante.
+- **`n: float = 1234.5678`:** Define un número flotante.
 
-- **`print(n, end = "\n", file = stdout)`**: Imprime el número flotante tal cual.
+- **`print(n, end = "\n", file = stdout)`:** Imprime el número flotante tal cual.
 
-- **`print(round(number = n, ndigits = 2), end = "\n", file = stdout)`**: Redondea el número a 2 decimales y lo imprime.
+- **`print(round(number = n, ndigits = 2), end = "\n", file = stdout)`:** Redondea el número a 2 decimales y lo imprime.
 
-- **`print(f"{n:.2f}", end = "\n", file = stdout)`**: Imprime el número flotante redondeado a 2 decimales.
+- **`print(f"{n:.2f}", end = "\n", file = stdout)`:** Imprime el número flotante redondeado a 2 decimales.
 
-- **`print(f"{n:.0f}", end = "\n", file = stdout)`**: Imprime el número flotante redondeado a 0 decimales (entero).
+- **`print(f"{n:.0f}", end = "\n", file = stdout)`:** Imprime el número flotante redondeado a 0 decimales (entero).
 
-- **`print(f"{n:,.3f}", end = "\n", file = stdout)`**: Imprime el número flotante con 3 decimales y comas como separadores de miles.
+- **`print(f"{n:,.3f}", end = "\n", file = stdout)`:** Imprime el número flotante con 3 decimales y comas como separadores de miles.
 
-- **`print(f"{n:_.3f}", end = "\n", file = stdout)`**: Imprime el número flotante con 3 decimales y guiones bajos como separadores de miles (esto requiere Python 3.6 o superior).
+- **`print(f"{n:_.3f}", end = "\n", file = stdout)`:** Imprime el número flotante con 3 decimales y guiones bajos como separadores de miles (esto requiere Python 3.6 o superior).
 
 ### 5. **quinto_ejemplo()**
 Esta función muestra cómo imprimir variables y expresiones en un formato de depuración.
@@ -206,19 +206,19 @@ def quinto_ejemplo() -> None:
     print(f"{var = }", end = "\n", file = stdout)
 ```
 
-- **`a: int = 5`** y **`b: int = 10`**: Define dos enteros.
+- **`a: int = 5`** y **`b: int = 10`:** Define dos enteros.
 
-- **`var: str = "Daniel Says Hi"`**: Define una cadena.
+- **`var: str = "Daniel Says Hi"`:** Define una cadena.
 
-- **`print(f"a + b = {a + b}", end = "\n", file = stdout)`**: Imprime el resultado de la suma de `a` y `b` con un texto explicativo.
+- **`print(f"a + b = {a + b}", end = "\n", file = stdout)`:** Imprime el resultado de la suma de `a` y `b` con un texto explicativo.
 
-- **`print(f"{a + b = }", end = "\n", file = stdout)`**: Usa el formato de cadena `f-string` para imprimir la expresión `a + b` junto con su resultado.
+- **`print(f"{a + b = }", end = "\n", file = stdout)`:** Usa el formato de cadena `f-string` para imprimir la expresión `a + b` junto con su resultado.
 
-- **`print(f"{a + b =}", end = "\n", file = stdout)`** y **`print(f"{a + b=}", end = "\n", file = stdout)`**: También imprimen la expresión `a + b` con su resultado, pero el formato de impresión puede variar.
+- **`print(f"{a + b =}", end = "\n", file = stdout)`** y **`print(f"{a + b=}", end = "\n", file = stdout)`:** También imprimen la expresión `a + b` con su resultado, pero el formato de impresión puede variar.
 
-- **`print(f"{bool(a) = }", end = "\n", file = stdout)`**: Imprime el valor booleano de `a` con su nombre de expresión.
+- **`print(f"{bool(a) = }", end = "\n", file = stdout)`:** Imprime el valor booleano de `a` con su nombre de expresión.
 
-- **`print(f"{var = }", end = "\n", file = stdout)`**: Imprime el valor de `var` con su nombre de expresión.
+- **`print(f"{var = }", end = "\n", file = stdout)`:** Imprime el valor de `var` con su nombre de expresión.
 
 Este código muestra cómo utilizar
 

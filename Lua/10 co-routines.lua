@@ -48,9 +48,9 @@ coroutine.resume(routine_2)
 --[[
     Las coroutines en Lua pueden estar en varios estados, y la función `coroutine.status` se utiliza para verificar el estado actual de una coroutine. Los posibles estados de una coroutine son los siguientes:
 
-    1. **Suspendida**: suspended -> La coroutine se ha pausado en algún punto usando `coroutine.yield()` o aún no se ha ejecutado.
+    1. **Suspendida:** suspended -> La coroutine se ha pausado en algún punto usando `coroutine.yield()` o aún no se ha ejecutado.
 
-    2. **Corriendo**: running -> La coroutine está actualmente en ejecución.
+    2. **Corriendo:** running -> La coroutine está actualmente en ejecución.
 
-    3. **Muerta**: dead -> La coroutine ha terminado su ejecución.
+    3. **Muerta:** dead -> La coroutine ha terminado su ejecución.
 ]]
