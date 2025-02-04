@@ -5,7 +5,7 @@
 
 # **_Historia de Git_**
 
-> **Git fue creado por Linus Torvalds***, el creador del sistema operativo Linux. La creación de Git se originó con el desarrollo del kernel de Linux, donde se necesitaba un sistema de control de versiones que cumpliera con ciertos requisitos.*
+> **Git fue creado por Linus Torvalds,** _el creador del sistema operativo Linux. La creación de Git se originó con el desarrollo del kernel de Linux, donde se necesitaba un sistema de control de versiones que cumpliera con ciertos requisitos._
 
 ---
 

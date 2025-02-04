@@ -8,12 +8,12 @@
 - *El comando `git clone` se utiliza para clonar un repositorio Git existente desde un repositorio remoto (por lo general, en un servidor como GitHub, GitLab o Bitbucket) y crear una copia local del mismo en tu máquina. Aquí tienes cómo usar `git clone`:*
 
 ```bash
-git clone <URL_Repository> [<directorio_destino_opcional>]
+git clone <URL Del Repository> [<directory Destino Optional>]
 ```
 
-- *`<URL_Repository>` es la URL del repositorio remoto que deseas clonar. Puedes obtener esta URL desde la página del repositorio en la plataforma de alojamiento (por ejemplo, GitHub).*
+- *`<URL Del Repository>` es la URL del repositorio remoto que deseas clonar. Puedes obtener esta URL desde la página del repositorio en la plataforma de alojamiento (por ejemplo, GitHub).*
 
-- *`[<directorio_destino_opcional>]` es opcional y especifica el directorio donde se clonará el repositorio. Si no se proporciona, se creará un nuevo directorio con el nombre del repositorio.*
+- *`[<directory Destino Optional>]` es opcional y especifica el directorio donde se clonará el repositorio. Si no se proporciona, se creará un nuevo directorio con el nombre del repositorio.*
 
 **Ejemplo:**
 

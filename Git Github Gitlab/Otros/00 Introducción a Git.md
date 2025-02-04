@@ -13,7 +13,7 @@
 
 **En Windows:**
 
-1. _Descarga el instalador de Git desde [la página oficial de Git](https://git-scm.com/download/win)._
+1. _Descarga el instalador de Git desde [la página oficial de Git](https://git-scm.com/download/win "https://git-scm.com/download/win")._
 
 2. _Ejecuta el fichero descargado y sigue las instrucciones del instalador._
 
@@ -77,4 +77,4 @@ git push origin master
 
 ## _**Enlaces útiles**_
 
-- [_Documentación oficial de Git_](https://git-scm.com/doc "https://git-scm.com/doc")
+- _[Documentación oficial de Git](https://git-scm.com/doc "https://git-scm.com/doc")_

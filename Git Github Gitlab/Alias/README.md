@@ -12,7 +12,7 @@
    *Para configurar alias globales, puedes usar el siguiente comando en tu terminal:*
 
    ```bash
-   git config --global alias.<nombre_alias> <comando_git>
+   git config --global alias.<Name Alias> <Command Git>
    ```
 
    **Por ejemplo, para crear un alias global llamado `co` para `checkout`, usarías:**
@@ -26,11 +26,11 @@
    *Para configurar alias locales, puedes editar directamente el fichero `.git/config` dentro del repositorio y agregar secciones de alias, o puedes usar el siguiente comando en tu terminal dentro del repositorio:*
 
    ```bash
-   git config alias.<nombre_alias> <comando_git>
+   git config alias.<Name Alias> <Command Git>
    ```
 
    ```bash
-   git config --local alias.<nombre_alias> <comando_git>
+   git config --local alias.<Name Alias> <Command Git>
    ```
 
    **Por ejemplo:**
@@ -49,7 +49,7 @@
 
    **Por ejemplo, para agregar un alias de sistema llamado `ci` para `commit`, agregarías lo siguiente al fichero `/~/.gitconfig`:**
 
-   ```plaintext
+   ```toml
    [init]
         defaultBranch = master
    [core]
