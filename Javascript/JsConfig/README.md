@@ -13,7 +13,7 @@
 
 ---
 
-### ***1. **compilerOptions*****
+### ***1. compilerOptions***
 
 *Esta sección contiene las opciones de configuración para el compilador. Estas opciones son similares a las que se pueden definir en un fichero `tsconfig.json` (usado para TypeScript), y son relevantes para la forma en que el código JavaScript se interpreta y se verifica.*
 
@@ -40,7 +40,7 @@
 
 ---
 
-#### ***2. **exclude*****
+#### ***2. exclude***
 
 **Esta sección se utiliza para especificar ficheros o directorios que el compilador debe ignorar. En tu configuración, se excluyen:**
 

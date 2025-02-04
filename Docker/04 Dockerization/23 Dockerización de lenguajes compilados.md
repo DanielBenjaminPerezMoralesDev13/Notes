@@ -15052,7 +15052,7 @@ go: to add module requirements and sums:
 ls -lA
 ```
 
-- **Esto mostrará el contenido del directorio, incluyendo el fichero **go.mod:****
+- **Esto mostrará el contenido del directorio, incluyendo el fichero `go.mod`:**
 
 ```bash
 total 8

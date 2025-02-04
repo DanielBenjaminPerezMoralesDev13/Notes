@@ -1378,7 +1378,7 @@ docker stop -sSIGTERM -t3 $(docker ps -qf publish=5000)
 
 ---
 
-### ****Desglose del Comando****
+### ***Desglose del Comando***
 
 1. **`docker stop`**
    - *Este comando se utiliza para detener uno o más contenedores en ejecución.*

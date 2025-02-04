@@ -123,7 +123,7 @@ extern double divide(double a, double b);
 
 ## ***Compilación y Ejecución***
 
-**Para compilar y ejecutar el proyecto de la calculadora en C utilizando diferentes métodos (directamente con `gcc -o`, con `gcc -c`) aquí tienes los pasos detallados:****
+**Para compilar y ejecutar el proyecto de la calculadora en C utilizando diferentes métodos (directamente con `gcc -o`, con `gcc -c`) aquí tienes los pasos detallados:**
 
 ### **Compilar y Ejecutar Utilizando `gcc -o`**
 

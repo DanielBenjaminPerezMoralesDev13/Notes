@@ -5,7 +5,7 @@
 
 # ***Instalación de XAMPP en Linux***
 
-## ¿Qué es XAMPP y qué significa?
+## **¿Qué es XAMPP y qué significa?**
 
 - *XAMPP es un paquete de software libre que proporciona un entorno de desarrollo integrado. Su nombre es un acrónimo de los componentes principales que incluye:*
 
@@ -19,7 +19,7 @@
 
 ---
 
-- *****Pasos para instalar XAMPP en Linux*****
+- ***Pasos para instalar XAMPP en Linux***
 
 1. **Ir a la página oficial de XAMPP**  
    - **Abre tu navegador y visita la página oficial de descargas de Apache Friends:**
@@ -122,7 +122,7 @@
 
 ## **1. Comando: `xhost +local:docker`**
 
-- *****¿Qué hace?*****
+- **¿Qué hace?**
 
 - *El comando `xhost` se utiliza para controlar el acceso a la pantalla de X (servidor X) en sistemas Linux. El servidor X es el componente que maneja las interfaces gráficas en sistemas Unix-like, y `xhost` se usa para configurar qué usuarios o clientes pueden conectarse a este servidor.*
 
@@ -211,7 +211,7 @@ sudo apt-get install -y libx11-6
    sudo ./manager-linux-x64.run
    ```
 
-- **1. **Comando con `docker container inspect`:****
+- **1. Comando con `docker container inspect`:**
 
 ```bash
 curl http://"$(docker container inspect --format "{{.NetworkSettings.IPAddress}}" $(docker container list --all --filter status=running --filter network=bridge --filter publish=80 --filter expose=80 --quiet))"/dashboard/
@@ -241,7 +241,7 @@ curl http://"$(docker container inspect --format "{{.NetworkSettings.IPAddress}}
 - **Resumen de lo que hace:**
 - *Este comando obtiene la IP de un contenedor que está en ejecución y que tiene el puerto 80 expuesto y accesible desde la red `bridge`. Luego, hace una solicitud `GET` al endpoint `/dashboard/` del contenedor, que podría ser la interfaz de administración o el dashboard de una aplicación web en ese contenedor.*
 
-- **2. **Comando con IP estática:****
+- **2. Comando con IP estática:**
 
 ```bash
 curl http://172.17.0.2/dashboard/

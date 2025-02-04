@@ -29,7 +29,7 @@
 
 ### ***Examen Interactivo***
 
-- *#### ***¿Para qué sirve la consola del navegador?****
+#### ***¿Para qué sirve la consola del navegador?***
 
 - *La consola sirve para poder jugar con JavaScript. Es la única forma de poder ejecutar nuestro código y por eso todos los navegadores lo incorporan. La consola nos permite ejecutar código JavaScript en tiempo real y ver el resultado. También ahí podemos ver los errores, advertencias y trazas que se producen en nuestro código.*
 

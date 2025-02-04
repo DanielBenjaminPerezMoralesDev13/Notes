@@ -26,12 +26,12 @@ git push origin main
 - *Esto enviará los cambios de tu rama local `main` al repositorio remoto llamado `origin` y los fusionará con la rama `main` en el repositorio remoto.*
 
 ```bash
-git push origin mi_rama_local:mi_rama_remota
+git push origin ramaLocal:ramaRemota
 ```
 
-- *El carácter :**** se utiliza para especificar qué ramas locales deben ser empujadas a qué ramas remotas.*
+- **El carácter:** *se utiliza para especificar qué ramas locales deben ser empujadas a qué ramas remotas.*
 
-- *Esto enviará los cambios de tu rama local `mi_rama_local` al repositorio remoto llamado `origin` y los fusionará con la rama `mi_rama_remota` en el repositorio remoto.*
+- *Esto enviará los cambios de tu rama local `ramaLocal` al repositorio remoto llamado `origin` y los fusionará con la rama `ramaRemota` en el repositorio remoto.*
 
 - *Después de ejecutar `git push`, los cambios serán enviados al repositorio remoto y estarán disponibles para otros colaboradores del proyecto. Es importante tener en cuenta que necesitas tener permisos de escritura en el repositorio remoto para poder realizar un push exitoso.*
 
